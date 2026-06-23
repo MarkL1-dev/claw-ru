@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Build output (built on the server during deploy)
+dist/
+
 # Sensitive / environment
 .env
 .env.*

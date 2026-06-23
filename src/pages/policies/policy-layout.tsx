@@ -19,7 +19,7 @@ export const PolicyLayout: React.FC<PolicyLayoutProps> = ({
     <div className="container mx-auto px-6 py-12">
       <Breadcrumbs className="mb-8">
         <BreadcrumbItem>
-          <Link as={RouterLink} to="/">Home</Link>
+          <Link as={RouterLink} to="/">Главная</Link>
         </BreadcrumbItem>
         <BreadcrumbItem>
           <span>{title}</span>
@@ -28,7 +28,7 @@ export const PolicyLayout: React.FC<PolicyLayoutProps> = ({
       
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-4">{title}</h1>
-        <p className="text-sm text-foreground-600 mb-8">Last updated: {lastUpdated}</p>
+        <p className="text-sm text-foreground-600 mb-8">Последнее обновление: {lastUpdated}</p>
         
         <div className="space-y-8">
           {children}

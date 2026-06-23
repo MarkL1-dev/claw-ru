@@ -5,18 +5,18 @@ import { useNavigate } from "react-router-dom";
 
 const testimonials = [
   {
-    quote: "After our investment fund was defrauded of $4.2M through a complex offshore scheme, CLAW's team traced and recovered 87% of our assets within 9 months. Their knowledge of Cayman banking regulations and persistence made all the difference when other firms told us recovery was unlikely.",
-    author: "James W., Investment Director, London",
+    quote: "После того как наш инвестиционный фонд лишился $4,2 млн в результате сложной офшорной мошеннической схемы, команда CLAW отследила и вернула 87% наших активов в течение 9 месяцев. Их знание банковского законодательства Каймановых островов и настойчивость сыграли решающую роль, когда другие фирмы говорили, что возврат маловероятен.",
+    author: "Джеймс У., инвестиционный директор, Лондон",
     company: "Meridian Capital Partners"
   },
   {
-    quote: "When our company faced a challenging insolvency involving assets across three jurisdictions, CLAW provided clear guidance that saved us significant time and resources. Their practical approach to cross-border proceedings helped us navigate complex legal hurdles that initially seemed insurmountable.",
-    author: "Sarah K., General Counsel, New York",
+    quote: "Когда наша компания столкнулась со сложной процедурой банкротства с активами в трёх юрисдикциях, CLAW дала чёткие рекомендации, которые сэкономили нам значительное время и ресурсы. Их практичный подход к трансграничным разбирательствам помог нам преодолеть сложные юридические препятствия, которые поначалу казались непреодолимыми.",
+    author: "Сара К., главный юрисконсульт, Нью-Йорк",
     company: "Atlas Investment Group"
   },
   {
-    quote: "Following a shareholder dispute that threatened our Hong Kong operations, CLAW's litigation team secured a favorable settlement that protected our business interests. Their responsiveness and strategic thinking throughout the 14-month process gave us confidence during an extremely stressful situation.",
-    author: "Michael L., CEO, Hong Kong",
+    quote: "После акционерного спора, угрожавшего нашей деятельности в Гонконге, судебная команда CLAW добилась выгодного урегулирования, защитившего наши деловые интересы. Их оперативность и стратегическое мышление на протяжении всего 14-месячного процесса придавали нам уверенности в крайне напряжённой ситуации.",
+    author: "Майкл Л., генеральный директор, Гонконг",
     company: "Pacific Rim Trading Ltd."
   }
 ];
@@ -32,11 +32,11 @@ export const Testimonials = () => {
       <div className="container mx-auto px-6 relative">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-            <span className="text-primary font-semibold">Success Stories</span>
+            <span className="text-primary font-semibold">Истории успеха</span>
           </div>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Client Testimonials</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Отзывы клиентов</h2>
           <p className="text-foreground-600 text-lg">
-            What our clients say about our legal expertise and service.
+            Что наши клиенты говорят о нашей юридической экспертизе и сервисе.
           </p>
         </div>
         
@@ -64,7 +64,7 @@ export const Testimonials = () => {
         
         <div className="mt-12 text-center">
           <p className="text-sm text-foreground-500">
-            Client names have been partially anonymized to protect confidentiality. Full case studies available upon request with appropriate NDAs.
+            Имена клиентов частично анонимизированы для защиты конфиденциальности. Полные кейсы предоставляются по запросу при условии подписания соответствующих соглашений о неразглашении.
           </p>
         </div>
       </div>

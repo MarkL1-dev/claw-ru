@@ -6,110 +6,110 @@ import { Icon } from "@iconify/react";
 const caseStudies = [
   {
     id: "1",
-    title: "Cross-Border Fraud Recovery",
-    client: "International Investment Fund",
+    title: "Возврат при трансграничном мошенничестве",
+    client: "Международный инвестиционный фонд",
     image: "https://img.heroui.chat/image/finance?w=800&h=400&u=1",
-    summary: "Successfully recovered $75 million in assets hidden across five jurisdictions following a complex investment fraud scheme.",
-    description: "Our client, a major investment fund, fell victim to a sophisticated fraud scheme that resulted in the misappropriation of $75 million. The perpetrators had dispersed the assets across multiple jurisdictions, including the Cayman Islands, British Virgin Islands, Switzerland, Singapore, and the United Arab Emirates.",
+    summary: "Успешно возвращены активы на сумму 75 млн долларов, скрытые в пяти юрисдикциях после сложной инвестиционно-мошеннической схемы.",
+    description: "Наш клиент, крупный инвестиционный фонд, стал жертвой изощрённой мошеннической схемы, в результате которой было незаконно присвоено 75 млн долларов. Злоумышленники рассредоточили активы по нескольким юрисдикциям, включая Каймановы острова, Британские Виргинские острова, Швейцарию, Сингапур и Объединённые Арабские Эмираты.",
     approach: [
-      "Comprehensive forensic investigation to trace the flow of funds",
-      "Strategic freezing orders obtained in multiple jurisdictions",
-      "Coordination with local counsel and law enforcement agencies",
-      "Innovative use of disclosure orders against financial institutions",
-      "Negotiated settlements with third parties who had received funds"
+      "Комплексное финансовое расследование для отслеживания движения средств",
+      "Получение стратегических приказов о замораживании в нескольких юрисдикциях",
+      "Взаимодействие с местными юристами и правоохранительными органами",
+      "Инновационное применение приказов о раскрытии информации к финансовым учреждениям",
+      "Урегулирование путём переговоров с третьими лицами, получившими средства"
     ],
-    outcome: "Through coordinated legal action across five jurisdictions, we successfully recovered over 90% of the misappropriated assets within 18 months. The case established important precedents for cross-border asset recovery strategies.",
-    testimonial: "The team's ability to coordinate complex legal strategies across multiple jurisdictions was impressive. Their tenacity and expertise were instrumental in recovering our assets.",
+    outcome: "Благодаря скоординированным юридическим действиям в пяти юрисдикциях мы успешно вернули более 90% незаконно присвоенных активов в течение 18 месяцев. Дело создало важные прецеденты для стратегий трансграничного возврата активов.",
+    testimonial: "Способность команды координировать сложные юридические стратегии в нескольких юрисдикциях впечатляла. Их упорство и экспертиза сыграли решающую роль в возврате наших активов.",
     relatedServices: ["asset-recovery", "fraud-litigation", "cross-border-enforcement"]
   },
   {
     id: "2",
-    title: "Corporate Embezzlement Recovery",
-    client: "Multinational Corporation",
+    title: "Возврат при корпоративном хищении",
+    client: "Многонациональная корпорация",
     image: "https://img.heroui.chat/image/finance?w=800&h=400&u=2",
-    summary: "Traced and recovered assets valued at $30 million misappropriated by former executives through a network of offshore entities.",
-    description: "Our client discovered that several former executives had systematically embezzled approximately $30 million over a five-year period. The funds had been channeled through a complex network of offshore companies and trusts designed to conceal the ultimate beneficial ownership.",
+    summary: "Отслежены и возвращены активы стоимостью 30 млн долларов, незаконно присвоенные бывшими руководителями через сеть офшорных компаний.",
+    description: "Наш клиент обнаружил, что несколько бывших руководителей систематически похищали около 30 млн долларов на протяжении пяти лет. Средства проводились через сложную сеть офшорных компаний и трастов, созданных для сокрытия конечного бенефициарного владения.",
     approach: [
-      "Internal investigation to identify the full extent of the fraud",
-      "Asset tracing across multiple jurisdictions",
-      "Strategic use of Norwich Pharmacal orders to identify beneficial owners",
-      "Freezing injunctions to preserve assets pending recovery",
-      "Criminal referrals to support the civil recovery strategy"
+      "Внутреннее расследование для установления полного масштаба мошенничества",
+      "Отслеживание активов в нескольких юрисдикциях",
+      "Стратегическое применение приказов Norwich Pharmacal для выявления бенефициарных владельцев",
+      "Обеспечительные приказы о замораживании для сохранения активов до их возврата",
+      "Обращения в правоохранительные органы для поддержки стратегии гражданско-правового возврата"
     ],
-    outcome: "We successfully recovered $27.5 million of the misappropriated funds and secured judgments against the former executives. The case resulted in significant improvements to the client's internal controls and governance procedures.",
-    testimonial: "Beyond the impressive financial recovery, the team provided valuable insights that helped us strengthen our corporate governance and prevent future incidents.",
+    outcome: "Мы успешно вернули 27,5 млн долларов незаконно присвоенных средств и добились судебных решений против бывших руководителей. Дело привело к значительному улучшению системы внутреннего контроля и процедур корпоративного управления клиента.",
+    testimonial: "Помимо впечатляющего возврата средств, команда поделилась ценными рекомендациями, которые помогли нам укрепить корпоративное управление и предотвратить будущие инциденты.",
     relatedServices: ["asset-recovery", "fraud-litigation", "corporate-disputes"]
   },
   {
     id: "3",
-    title: "International Fund Liquidation",
-    client: "Fund Investors",
+    title: "Ликвидация международного фонда",
+    client: "Инвесторы фонда",
     image: "https://img.heroui.chat/image/finance?w=800&h=400&u=3",
-    summary: "Acted as counsel to liquidators of a $500 million investment fund, successfully recovering assets for investors through complex litigation.",
-    description: "Following the collapse of a $500 million investment fund due to fraudulent misrepresentation and mismanagement, we were appointed as counsel to the official liquidators. The fund's assets were spread across multiple jurisdictions, and there were competing claims from various creditor groups.",
+    summary: "Выступали юрисконсультами ликвидаторов инвестиционного фонда объёмом 500 млн долларов, успешно вернув активы инвесторам через сложный судебный процесс.",
+    description: "После краха инвестиционного фонда объёмом 500 млн долларов из-за мошеннического введения в заблуждение и ненадлежащего управления мы были назначены юрисконсультами официальных ликвидаторов. Активы фонда были рассредоточены по нескольким юрисдикциям, а различные группы кредиторов предъявляли конкурирующие требования.",
     approach: [
-      "Comprehensive review of fund documentation and transactions",
-      "Strategic claims against fund directors, investment manager, and auditors",
-      "Coordination of litigation in multiple jurisdictions",
-      "Negotiation with major creditor groups",
-      "Development of distribution strategy to maximize returns to investors"
+      "Комплексный анализ документации и операций фонда",
+      "Стратегические иски против директоров фонда, инвестиционного управляющего и аудиторов",
+      "Координация судебных процессов в нескольких юрисдикциях",
+      "Переговоры с основными группами кредиторов",
+      "Разработка стратегии распределения для максимизации выплат инвесторам"
     ],
-    outcome: "Through a combination of litigation and settlements, we recovered approximately $350 million for distribution to investors. The case established important precedents regarding directors' duties and auditor liability in the context of investment funds.",
-    testimonial: "The liquidation process was handled with remarkable efficiency, and the recovery exceeded our expectations given the complexity of the case.",
+    outcome: "Сочетая судебные разбирательства и мировые соглашения, мы вернули около 350 млн долларов для распределения между инвесторами. Дело создало важные прецеденты в отношении обязанностей директоров и ответственности аудиторов применительно к инвестиционным фондам.",
+    testimonial: "Процесс ликвидации был проведён с замечательной эффективностью, а объём возврата превзошёл наши ожидания, учитывая сложность дела.",
     relatedServices: ["insolvency-restructuring", "asset-recovery", "fraud-litigation"]
   },
   {
     id: "4",
-    title: "Cryptocurrency Fraud Recovery",
-    client: "Technology Investment Group",
+    title: "Возврат при мошенничестве с криптовалютой",
+    client: "Технологическая инвестиционная группа",
     image: "https://img.heroui.chat/image/finance?w=800&h=400&u=4",
-    summary: "Pioneered innovative legal strategies to recover digital assets worth $15 million following a sophisticated hack.",
-    description: "Our client, a technology investment group, lost approximately $15 million in cryptocurrency assets through a sophisticated hack. The stolen assets had been transferred through multiple wallets and exchanges in an attempt to launder the proceeds.",
+    summary: "Применили инновационные юридические стратегии для возврата цифровых активов на сумму 15 млн долларов после изощрённого взлома.",
+    description: "Наш клиент, технологическая инвестиционная группа, потерял около 15 млн долларов в криптовалютных активах в результате изощрённого взлома. Похищенные активы были переведены через множество кошельков и бирж в попытке отмыть полученные средства.",
     approach: [
-      "Blockchain forensic analysis to trace the movement of digital assets",
-      "Innovative use of proprietary injunctions against 'persons unknown'",
-      "Disclosure orders against cryptocurrency exchanges",
-      "Coordination with law enforcement agencies across multiple jurisdictions",
-      "Development of novel legal arguments regarding the property status of cryptocurrencies"
+      "Блокчейн-форензика для отслеживания движения цифровых активов",
+      "Инновационное применение обеспечительных приказов против «неустановленных лиц»",
+      "Приказы о раскрытии информации в отношении криптовалютных бирж",
+      "Взаимодействие с правоохранительными органами в нескольких юрисдикциях",
+      "Разработка новых юридических аргументов относительно имущественного статуса криптовалют"
     ],
-    outcome: "We successfully recovered approximately 80% of the stolen cryptocurrency through a combination of legal proceedings and negotiated settlements. The case established important precedents for the treatment of digital assets in recovery actions.",
-    testimonial: "The team's understanding of both the legal and technical aspects of cryptocurrency was exceptional. They developed innovative strategies that resulted in a recovery we initially thought impossible.",
+    outcome: "Мы успешно вернули около 80% похищенной криптовалюты, сочетая судебные разбирательства и мировые соглашения. Дело создало важные прецеденты в отношении квалификации цифровых активов в делах о возврате.",
+    testimonial: "Понимание командой как юридических, так и технических аспектов криптовалют было исключительным. Они разработали инновационные стратегии, благодаря которым удался возврат, который мы изначально считали невозможным.",
     relatedServices: ["asset-recovery", "fraud-litigation", "regulatory-compliance"]
   },
   {
     id: "5",
-    title: "Arbitration Award Enforcement",
-    client: "International Energy Company",
+    title: "Исполнение арбитражного решения",
+    client: "Международная энергетическая компания",
     image: "https://img.heroui.chat/image/finance?w=800&h=400&u=5",
-    summary: "Successfully enforced a $200 million arbitration award against assets held in the Cayman Islands, overcoming complex jurisdictional challenges.",
-    description: "Our client had obtained a $200 million arbitration award against a state-owned enterprise but faced significant challenges in enforcement. The debtor had restructured its assets to place them beyond reach, with significant holdings in Cayman Islands entities.",
+    summary: "Успешно исполнили арбитражное решение на 200 млн долларов в отношении активов на Каймановых островах, преодолев сложные юрисдикционные препятствия.",
+    description: "Наш клиент получил арбитражное решение на 200 млн долларов против государственного предприятия, однако столкнулся со значительными трудностями при его исполнении. Должник реструктурировал свои активы, чтобы вывести их из-под взыскания, при этом значительные доли были сосредоточены в компаниях на Каймановых островах.",
     approach: [
-      "Strategic recognition proceedings in the Cayman Islands",
-      "Asset investigation to identify enforcement targets",
-      "Receivership applications over Cayman Islands entities",
-      "Coordination with counsel in parallel enforcement proceedings",
-      "Negotiation strategy leveraging enforcement pressure"
+      "Стратегические процедуры признания на Каймановых островах",
+      "Расследование активов для выявления объектов взыскания",
+      "Заявления о назначении управляющего над компаниями на Каймановых островах",
+      "Взаимодействие с юристами в параллельных процедурах исполнения",
+      "Переговорная стратегия с использованием давления через исполнение"
     ],
-    outcome: "Through strategic enforcement actions in the Cayman Islands, we successfully recovered the full amount of the arbitration award plus costs. The case established important precedents regarding the enforcement of arbitration awards against restructured corporate groups.",
-    testimonial: "The team's strategic approach to enforcement and their deep understanding of Cayman Islands law were crucial to our successful recovery.",
+    outcome: "Благодаря стратегическим действиям по исполнению на Каймановых островах мы успешно взыскали полную сумму арбитражного решения и судебные расходы. Дело создало важные прецеденты в отношении исполнения арбитражных решений против реструктурированных корпоративных групп.",
+    testimonial: "Стратегический подход команды к исполнению и их глубокое знание права Каймановых островов сыграли решающую роль в нашем успешном взыскании.",
     relatedServices: ["cross-border-enforcement", "asset-recovery", "corporate-disputes"]
   },
   {
     id: "6",
-    title: "Shareholder Dispute Resolution",
-    client: "Minority Shareholders",
+    title: "Разрешение спора между акционерами",
+    client: "Миноритарные акционеры",
     image: "https://img.heroui.chat/image/finance?w=800&h=400&u=6",
-    summary: "Successfully represented minority shareholders in a dispute over corporate control, securing a favorable settlement that protected their investment.",
-    description: "Our clients, minority shareholders in a privately held company, faced attempts by the majority shareholder to dilute their interests and divert corporate opportunities. The dispute involved complex corporate governance issues and allegations of breach of fiduciary duty.",
+    summary: "Успешно представляли интересы миноритарных акционеров в споре о корпоративном контроле, добившись выгодного урегулирования, защитившего их инвестиции.",
+    description: "Наши клиенты, миноритарные акционеры частной компании, столкнулись с попытками мажоритарного акционера размыть их доли и присвоить корпоративные возможности. Спор затрагивал сложные вопросы корпоративного управления и обвинения в нарушении фидуциарных обязанностей.",
     approach: [
-      "Comprehensive review of corporate documentation and transactions",
-      "Strategic use of statutory minority shareholder protections",
-      "Injunctive relief to prevent further prejudicial conduct",
-      "Forensic accounting to identify diverted opportunities and assets",
-      "Structured negotiation strategy to achieve favorable settlement"
+      "Комплексный анализ корпоративной документации и операций",
+      "Стратегическое использование законодательных механизмов защиты миноритарных акционеров",
+      "Обеспечительные меры для предотвращения дальнейших недобросовестных действий",
+      "Финансовая экспертиза для выявления присвоенных возможностей и активов",
+      "Структурированная переговорная стратегия для достижения выгодного урегулирования"
     ],
-    outcome: "We secured a settlement that included a buyout of our clients' shares at a significant premium to fair market value, as well as compensation for diverted opportunities. The case established important principles regarding the protection of minority shareholder rights in Cayman Islands companies.",
-    testimonial: "The team's strategic approach transformed what seemed like a hopeless situation into a highly favorable outcome that exceeded our expectations.",
+    outcome: "Мы добились урегулирования, включавшего выкуп долей наших клиентов со значительной премией к справедливой рыночной стоимости, а также компенсацию за присвоенные возможности. Дело установило важные принципы защиты прав миноритарных акционеров в компаниях Каймановых островов.",
+    testimonial: "Стратегический подход команды превратил, казалось бы, безнадёжную ситуацию в крайне благоприятный результат, превзошедший наши ожидания.",
     relatedServices: ["corporate-disputes", "fraud-litigation", "regulatory-compliance"]
   }
 ];
@@ -120,23 +120,23 @@ export const CaseStudiesPage = () => {
       <div className="container mx-auto px-6">
         <Breadcrumbs className="mb-8">
           <BreadcrumbItem>
-            <Link to="/">Home</Link>
+            <Link to="/">Главная</Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span>Resources</span>
+            <span>Ресурсы</span>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span>Case Studies</span>
+            <span>Кейсы</span>
           </BreadcrumbItem>
         </Breadcrumbs>
         
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-            <span className="text-primary font-semibold">Success Stories</span>
+            <span className="text-primary font-semibold">Истории успеха</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Case Studies</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">Кейсы</h1>
           <p className="text-foreground-600 text-lg">
-            Explore our successful asset recovery and litigation cases across multiple jurisdictions.
+            Ознакомьтесь с нашими успешными делами по возврату активов и судебным спорам в разных юрисдикциях.
           </p>
         </div>
         
@@ -152,13 +152,13 @@ export const CaseStudiesPage = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
                     <div className="p-4">
-                      <span className="text-white text-xs bg-primary px-2 py-1 rounded">Case Study</span>
+                      <span className="text-white text-xs bg-primary px-2 py-1 rounded">Кейс</span>
                     </div>
                   </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{caseStudy.title}</h3>
-                  <p className="text-sm text-foreground-500 mb-3">Client: {caseStudy.client}</p>
+                  <p className="text-sm text-foreground-500 mb-3">Клиент: {caseStudy.client}</p>
                   <p className="text-foreground-600 mb-4">{caseStudy.summary}</p>
                   <div className="flex justify-between items-center">
                     <Button 
@@ -169,7 +169,7 @@ export const CaseStudiesPage = () => {
                       size="sm"
                       endContent={<Icon icon="lucide:arrow-right" size={14} />}
                     >
-                      Read Case Study
+                      Читать кейс
                     </Button>
                   </div>
                 </div>
@@ -184,9 +184,9 @@ export const CaseStudiesPage = () => {
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
                 <Icon icon="lucide:briefcase" className="text-primary text-2xl" />
               </div>
-              <h2 className="text-2xl font-bold">Need Help With Your Case?</h2>
+              <h2 className="text-2xl font-bold">Нужна помощь с вашим делом?</h2>
               <p className="text-foreground-600">
-                Our team of experienced attorneys specializes in complex asset recovery and litigation across multiple jurisdictions.
+                Наша команда опытных юристов специализируется на сложном возврате активов и судебных спорах в разных юрисдикциях.
               </p>
               <div className="flex gap-4 mt-4">
                 <Button 
@@ -195,7 +195,7 @@ export const CaseStudiesPage = () => {
                   color="primary"
                   endContent={<Icon icon="lucide:phone" size={16} />}
                 >
-                  Schedule a Consultation
+                  Записаться на консультацию
                 </Button>
                 
                 {/* Remove brochure button */}
@@ -206,7 +206,7 @@ export const CaseStudiesPage = () => {
                   color="primary"
                   endContent={<Icon icon="lucide:file-text" size={16} />}
                 >
-                  View Publications
+                  Смотреть публикации
                 </Button>
               </div>
             </div>

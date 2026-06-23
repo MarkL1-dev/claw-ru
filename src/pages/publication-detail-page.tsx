@@ -7,92 +7,92 @@ import { Icon } from "@iconify/react";
 const publications = [
   {
     id: "1",
-    title: "Cross-Border Asset Recovery: Legal Strategies and Challenges",
+    title: "Трансграничный возврат активов: юридические стратегии и вызовы",
     author: "Jonathan P. Harrington",
-    date: "February 8, 2023",
+    date: "8 февраля 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=11",
-    summary: "An in-depth analysis of legal strategies for cross-border asset recovery in complex fraud cases.",
+    summary: "Углублённый анализ юридических стратегий трансграничного возврата активов в сложных делах о мошенничестве.",
     content: [
-      "Cross-border asset recovery presents unique challenges that require specialized legal strategies and a deep understanding of multiple jurisdictions. This article explores the key legal tools and approaches that have proven effective in complex international fraud cases.",
-      "One of the most critical aspects of cross-border asset recovery is the ability to obtain and enforce freezing orders across multiple jurisdictions. Recent developments in case law have expanded the reach of such orders, particularly in cases involving sophisticated attempts to conceal assets through complex corporate structures.",
-      "The use of disclosure orders against third parties, particularly financial institutions, has become increasingly important in tracing the flow of misappropriated assets. Courts in major financial centers have shown a growing willingness to grant such orders in support of foreign proceedings, creating new opportunities for recovery practitioners.",
-      "Coordination between legal teams in different jurisdictions remains essential to successful recovery efforts. The development of effective coordination protocols and the strategic sequencing of legal actions across jurisdictions can significantly enhance the chances of successful recovery.",
-      "Looking ahead, the increasing digitization of assets and financial transactions presents both challenges and opportunities for asset recovery practitioners. While digital assets can be more difficult to trace, advances in blockchain analytics and the development of specialized legal tools are creating new avenues for recovery."
+      "Трансграничный возврат активов сопряжён с уникальными вызовами, требующими специализированных юридических стратегий и глубокого понимания нескольких юрисдикций. В этой статье рассматриваются ключевые юридические инструменты и подходы, доказавшие свою эффективность в сложных международных делах о мошенничестве.",
+      "Один из важнейших аспектов трансграничного возврата активов — возможность получать и приводить в исполнение приказы о замораживании в нескольких юрисдикциях. Последние изменения в судебной практике расширили сферу действия таких приказов, особенно в делах с изощрёнными попытками скрыть активы через сложные корпоративные структуры.",
+      "Применение приказов о раскрытии информации к третьим лицам, в частности к финансовым учреждениям, приобретает всё большее значение при отслеживании движения незаконно присвоенных активов. Суды в крупных финансовых центрах всё чаще готовы выдавать такие приказы в поддержку иностранных разбирательств, открывая новые возможности для специалистов по возврату активов.",
+      "Координация между юридическими командами в разных юрисдикциях остаётся ключевой для успешного возврата. Разработка эффективных протоколов координации и стратегическая последовательность юридических действий в разных юрисдикциях могут значительно повысить шансы на успешный возврат.",
+      "В перспективе растущая цифровизация активов и финансовых операций создаёт как вызовы, так и возможности для специалистов по возврату активов. Хотя цифровые активы сложнее отслеживать, развитие блокчейн-аналитики и специализированных юридических инструментов открывает новые пути для возврата."
     ]
   },
   {
     id: "2",
-    title: "Piercing the Corporate Veil in Offshore Jurisdictions",
+    title: "Снятие корпоративной вуали в офшорных юрисдикциях",
     author: "Elizabeth Chen",
-    date: "April 17, 2023",
+    date: "17 апреля 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=12",
-    summary: "A comprehensive examination of the evolving jurisprudence on corporate veil piercing in offshore financial centers.",
+    summary: "Комплексный разбор развивающейся судебной практики по снятию корпоративной вуали в офшорных финансовых центрах.",
     content: [
-      "The doctrine of corporate veil piercing has undergone significant evolution in offshore financial centers in recent years. This article examines the current state of the law and identifies emerging trends that have important implications for asset recovery practitioners.",
-      "Traditionally, offshore jurisdictions have maintained strict adherence to the principle of corporate separateness, making it difficult to pierce the corporate veil even in cases involving fraud or other wrongdoing. However, recent decisions in key offshore financial centers suggest a growing willingness to look beyond corporate formalities in appropriate cases.",
-      "The Cayman Islands, in particular, has seen important developments in this area. Recent decisions have expanded the circumstances in which the corporate veil may be pierced, particularly in cases involving fraud, the evasion of existing obligations, or the abuse of corporate structures for improper purposes.",
-      "Similar trends can be observed in other offshore jurisdictions, including the British Virgin Islands and Bermuda. While the specific tests applied may vary, there is a common thread of increased judicial willingness to prevent the abuse of corporate structures for fraudulent purposes.",
-      "For asset recovery practitioners, these developments create new opportunities to pursue assets held through complex corporate structures. However, successful veil-piercing arguments still require careful preparation and a thorough understanding of the specific requirements in each relevant jurisdiction."
+      "Доктрина снятия корпоративной вуали за последние годы претерпела значительную эволюцию в офшорных финансовых центрах. В этой статье рассматривается текущее состояние права и выявляются формирующиеся тенденции, имеющие важные последствия для специалистов по возврату активов.",
+      "Традиционно офшорные юрисдикции строго придерживались принципа обособленности юридического лица, что затрудняло снятие корпоративной вуали даже в делах с мошенничеством или иными нарушениями. Однако недавние решения в ключевых офшорных финансовых центрах указывают на растущую готовность выходить за рамки корпоративных формальностей в надлежащих случаях.",
+      "Каймановы острова, в частности, демонстрируют важные изменения в этой области. Недавние решения расширили обстоятельства, при которых корпоративная вуаль может быть снята, особенно в делах с мошенничеством, уклонением от существующих обязательств или злоупотреблением корпоративными структурами в ненадлежащих целях.",
+      "Схожие тенденции наблюдаются и в других офшорных юрисдикциях, включая Британские Виргинские острова и Бермудские острова. Хотя применяемые критерии могут различаться, общим является возросшая готовность судов предотвращать злоупотребление корпоративными структурами в мошеннических целях.",
+      "Для специалистов по возврату активов эти изменения открывают новые возможности по взысканию активов, удерживаемых через сложные корпоративные структуры. Однако успешные аргументы о снятии вуали по-прежнему требуют тщательной подготовки и глубокого понимания конкретных требований в каждой соответствующей юрисдикции."
     ]
   },
   {
     id: "3",
-    title: "Digital Asset Recovery: Legal Frameworks and Practical Challenges",
+    title: "Возврат цифровых активов: правовые рамки и практические вызовы",
     author: "Marcus A. Williams",
-    date: "June 22, 2023",
+    date: "22 июня 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=13",
-    summary: "Exploring the emerging legal frameworks for recovering cryptocurrencies and other digital assets in fraud cases.",
+    summary: "Разбор формирующихся правовых рамок возврата криптовалют и других цифровых активов в делах о мошенничестве.",
     content: [
-      "The recovery of digital assets, particularly cryptocurrencies, presents unique legal and practical challenges that require specialized approaches. This article examines the emerging legal frameworks for digital asset recovery and offers practical guidance for practitioners in this rapidly evolving field.",
-      "One of the fundamental challenges in digital asset recovery is establishing legal ownership or proprietary claims to cryptocurrencies and other blockchain-based assets. Recent court decisions in major jurisdictions have increasingly recognized cryptocurrencies as property capable of being owned, creating a foundation for recovery claims.",
-      "Tracing digital assets through blockchain networks requires specialized forensic techniques that differ significantly from traditional asset tracing methods. The pseudonymous nature of many blockchain transactions creates challenges, but the immutable record of transactions also provides opportunities for effective tracing when combined with appropriate legal tools.",
-      "The use of proprietary injunctions against 'persons unknown' has emerged as a particularly valuable tool in cryptocurrency fraud cases. Such injunctions, combined with disclosure orders against cryptocurrency exchanges, can be effective in freezing and ultimately recovering misappropriated digital assets.",
-      "Looking ahead, the increasing regulation of cryptocurrency exchanges and other digital asset service providers is likely to create new opportunities for asset recovery. As these entities become subject to more stringent know-your-customer and anti-money laundering requirements, the ability to identify the beneficial owners of digital assets will improve."
+      "Возврат цифровых активов, в частности криптовалют, сопряжён с уникальными юридическими и практическими вызовами, требующими специализированных подходов. В этой статье рассматриваются формирующиеся правовые рамки возврата цифровых активов и даются практические рекомендации для специалистов в этой быстро развивающейся области.",
+      "Одна из фундаментальных сложностей при возврате цифровых активов — установление законного права собственности или вещных требований на криптовалюты и другие активы на основе блокчейна. Недавние судебные решения в крупных юрисдикциях всё чаще признают криптовалюты имуществом, которым можно владеть, создавая основу для требований о возврате.",
+      "Отслеживание цифровых активов в блокчейн-сетях требует специализированных методов форензики, существенно отличающихся от традиционных способов отслеживания активов. Псевдонимный характер многих блокчейн-транзакций создаёт сложности, но неизменяемая запись операций также даёт возможности для эффективного отслеживания в сочетании с надлежащими юридическими инструментами.",
+      "Применение обеспечительных приказов против «неустановленных лиц» стало особенно ценным инструментом в делах о криптовалютном мошенничестве. Такие приказы в сочетании с приказами о раскрытии информации в отношении криптовалютных бирж могут быть эффективны при замораживании и последующем возврате незаконно присвоенных цифровых активов.",
+      "В перспективе усиление регулирования криптовалютных бирж и других поставщиков услуг с цифровыми активами, вероятно, создаст новые возможности для возврата активов. По мере того как эти организации подпадают под более строгие требования идентификации клиентов и противодействия отмыванию денег, возможность выявлять бенефициарных владельцев цифровых активов будет улучшаться."
     ]
   },
   {
     id: "4",
-    title: "Strategic Use of Insolvency Proceedings in Asset Recovery",
+    title: "Стратегическое использование процедур банкротства при возврате активов",
     author: "Sophia Rodriguez",
-    date: "August 14, 2023",
+    date: "14 августа 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=14",
-    summary: "Analyzing how insolvency proceedings can be leveraged as effective tools in complex asset recovery scenarios.",
+    summary: "Анализ того, как процедуры банкротства могут использоваться в качестве эффективных инструментов в сложных сценариях возврата активов.",
     content: [
-      "Insolvency proceedings can be powerful tools in asset recovery strategies, providing liquidators with broad powers to investigate transactions, pursue claims, and recover assets for the benefit of creditors. This article explores the strategic use of insolvency proceedings in complex asset recovery scenarios.",
-      "One of the key advantages of insolvency proceedings is the ability of liquidators to step into the shoes of the insolvent entity and pursue claims that might otherwise be difficult to bring. This includes claims against former directors, claims to avoid fraudulent transfers, and claims against third parties who may have assisted in the dissipation of assets.",
-      "Cross-border insolvency frameworks, such as the UNCITRAL Model Law on Cross-Border Insolvency, have significantly enhanced the effectiveness of insolvency-based recovery strategies in international cases. The recognition of foreign insolvency proceedings in multiple jurisdictions can facilitate coordinated recovery efforts across borders.",
-      "The strategic timing of insolvency filings can be critical to successful recovery outcomes. In some cases, it may be advantageous to commence proceedings in a particular jurisdiction first, based on factors such as the location of assets, the availability of specific legal remedies, or the approach of local courts to particular issues.",
-      "While insolvency proceedings offer significant advantages, they also come with potential challenges, including costs, time frames, and the need to consider the interests of all creditors. Careful planning and coordination between legal teams in relevant jurisdictions is essential to maximize the effectiveness of this approach."
+      "Процедуры банкротства могут быть мощными инструментами в стратегиях возврата активов, наделяя ликвидаторов широкими полномочиями по расследованию операций, предъявлению требований и возврату активов в пользу кредиторов. В этой статье рассматривается стратегическое использование процедур банкротства в сложных сценариях возврата активов.",
+      "Одно из ключевых преимуществ процедур банкротства — возможность ликвидаторов встать на место неплатёжеспособного лица и предъявлять требования, которые иначе было бы сложно заявить. Сюда относятся требования к бывшим директорам, требования об оспаривании мошеннических сделок и требования к третьим лицам, которые могли содействовать выводу активов.",
+      "Трансграничные механизмы банкротства, такие как Типовой закон ЮНСИТРАЛ о трансграничной несостоятельности, значительно повысили эффективность основанных на банкротстве стратегий возврата в международных делах. Признание иностранных процедур банкротства в нескольких юрисдикциях может облегчить скоординированные усилия по возврату через границы.",
+      "Стратегический выбор момента подачи заявления о банкротстве может иметь решающее значение для успешного возврата. В некоторых случаях бывает выгодно сначала начать процедуру в определённой юрисдикции с учётом таких факторов, как расположение активов, доступность конкретных средств правовой защиты или подход местных судов к тем или иным вопросам.",
+      "Хотя процедуры банкротства дают значительные преимущества, они также сопряжены с потенциальными сложностями, включая расходы, сроки и необходимость учитывать интересы всех кредиторов. Тщательное планирование и координация между юридическими командами в соответствующих юрисдикциях необходимы для максимальной эффективности этого подхода."
     ]
   },
   {
     id: "5",
-    title: "Enforcement of Foreign Judgments in the Cayman Islands",
+    title: "Исполнение иностранных судебных решений на Каймановых островах",
     author: "Jonathan P. Harrington",
-    date: "October 9, 2023",
+    date: "9 октября 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=15",
-    summary: "A detailed analysis of the legal framework and practical considerations for enforcing foreign judgments in the Cayman Islands.",
+    summary: "Подробный анализ правовой базы и практических аспектов исполнения иностранных судебных решений на Каймановых островах.",
     content: [
-      "The enforcement of foreign judgments in the Cayman Islands is a critical consideration in international asset recovery strategies, particularly given the jurisdiction's significance as a global financial center. This article provides a detailed analysis of the legal framework and practical considerations for enforcement.",
-      "The Cayman Islands' approach to the enforcement of foreign judgments is based primarily on common law principles, as the jurisdiction is not a party to any bilateral or multilateral enforcement treaties. Under the common law, a foreign judgment may be enforced if it is final and conclusive, rendered by a court of competent jurisdiction, and for a definite sum of money.",
-      "Recent case law has clarified and in some respects expanded the circumstances in which foreign judgments may be enforced in the Cayman Islands. The courts have shown a willingness to adopt a pragmatic approach, particularly in cases involving fraud or other wrongdoing.",
-      "Practical considerations for enforcement include the identification of assets within the jurisdiction, the potential need for interim relief to preserve assets pending enforcement, and strategic decisions regarding the timing and sequencing of enforcement actions in relation to other recovery efforts.",
-      "Looking ahead, potential legislative reforms may further enhance the framework for enforcement of foreign judgments in the Cayman Islands. Practitioners should monitor developments in this area, as they may create new opportunities for effective cross-border enforcement strategies."
+      "Исполнение иностранных судебных решений на Каймановых островах — важный аспект международных стратегий возврата активов, особенно с учётом значимости этой юрисдикции как мирового финансового центра. В этой статье представлен подробный анализ правовой базы и практических аспектов исполнения.",
+      "Подход Каймановых островов к исполнению иностранных судебных решений основан преимущественно на принципах общего права, поскольку юрисдикция не является участником каких-либо двусторонних или многосторонних договоров об исполнении. По общему праву иностранное судебное решение может быть исполнено, если оно является окончательным и неоспоримым, вынесено судом надлежащей юрисдикции и на определённую денежную сумму.",
+      "Недавняя судебная практика прояснила, а в некоторых аспектах расширила обстоятельства, при которых иностранные судебные решения могут быть исполнены на Каймановых островах. Суды продемонстрировали готовность придерживаться прагматичного подхода, особенно в делах с мошенничеством или иными нарушениями.",
+      "Практические аспекты исполнения включают выявление активов в пределах юрисдикции, возможную необходимость в обеспечительных мерах для сохранения активов до исполнения, а также стратегические решения относительно сроков и последовательности действий по исполнению в связи с другими усилиями по возврату.",
+      "В перспективе возможные законодательные реформы могут дополнительно усовершенствовать механизм исполнения иностранных судебных решений на Каймановых островах. Специалистам следует отслеживать изменения в этой области, поскольку они могут открыть новые возможности для эффективных стратегий трансграничного исполнения."
     ]
   },
   {
     id: "6",
-    title: "Beneficial Ownership Disclosure: Implications for Asset Recovery",
+    title: "Раскрытие бенефициарного владения: последствия для возврата активов",
     author: "Elizabeth Chen",
-    date: "December 3, 2023",
+    date: "3 декабря 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=16",
-    summary: "Examining how beneficial ownership transparency initiatives impact asset tracing and recovery strategies.",
+    summary: "Разбор того, как инициативы по прозрачности бенефициарного владения влияют на отслеживание активов и стратегии возврата.",
     content: [
-      "Beneficial ownership transparency initiatives have gained significant momentum globally in recent years, with important implications for asset tracing and recovery strategies. This article examines how these developments are changing the landscape for asset recovery practitioners.",
-      "The establishment of beneficial ownership registers in key jurisdictions, including many offshore financial centers, represents a fundamental shift in the availability of information about the ultimate owners of corporate entities. While access to these registers varies across jurisdictions, they generally provide new avenues for identifying assets held through corporate structures.",
-      "Recent regulatory developments, such as the Corporate Transparency Act in the United States and the expansion of the UK's register of overseas entities, are further enhancing transparency and creating new opportunities for asset tracing. These measures are particularly significant given the importance of these jurisdictions in the global financial system.",
-      "For asset recovery practitioners, these developments necessitate a reassessment of traditional approaches to asset tracing. The strategic use of beneficial ownership information, combined with traditional investigative techniques and legal tools, can significantly enhance the effectiveness of recovery efforts.",
-      "Looking ahead, the trend toward greater beneficial ownership transparency is likely to continue, with potential for further expansion of registers and increased information sharing between jurisdictions. Asset recovery practitioners should stay abreast of these developments and adapt their strategies accordingly."
+      "Инициативы по прозрачности бенефициарного владения в последние годы получили значительный импульс во всём мире, что имеет важные последствия для отслеживания активов и стратегий возврата. В этой статье рассматривается, как эти изменения меняют ситуацию для специалистов по возврату активов.",
+      "Создание реестров бенефициарных владельцев в ключевых юрисдикциях, включая многие офшорные финансовые центры, представляет собой фундаментальный сдвиг в доступности информации о конечных владельцах корпоративных лиц. Хотя доступ к этим реестрам различается в разных юрисдикциях, они в целом открывают новые пути для выявления активов, удерживаемых через корпоративные структуры.",
+      "Недавние нормативные изменения, такие как Закон о корпоративной прозрачности в Соединённых Штатах и расширение британского реестра иностранных юридических лиц, дополнительно повышают прозрачность и создают новые возможности для отслеживания активов. Эти меры особенно значимы с учётом важности данных юрисдикций в мировой финансовой системе.",
+      "Для специалистов по возврату активов эти изменения требуют переоценки традиционных подходов к отслеживанию активов. Стратегическое использование информации о бенефициарном владении в сочетании с традиционными методами расследования и юридическими инструментами может существенно повысить эффективность усилий по возврату.",
+      "В перспективе тенденция к большей прозрачности бенефициарного владения, вероятно, сохранится, с возможностью дальнейшего расширения реестров и усиления обмена информацией между юрисдикциями. Специалистам по возврату активов следует следить за этими изменениями и соответствующим образом адаптировать свои стратегии."
     ]
   }
 ];
@@ -110,7 +110,7 @@ export const PublicationDetailPage = () => {
   // Handle share article
   const handleShareArticle = () => {
     if (!email) {
-      alert("Please enter an email address");
+      alert("Пожалуйста, введите адрес электронной почты");
       return;
     }
     
@@ -131,15 +131,15 @@ export const PublicationDetailPage = () => {
       <div className="bg-background py-16">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">Publication Not Found</h2>
-            <p className="mb-8">The publication you are looking for does not exist.</p>
-            <Button 
-              as={Link} 
-              to="/resources/publications" 
+            <h2 className="text-2xl font-bold mb-4">Публикация не найдена</h2>
+            <p className="mb-8">Публикация, которую вы ищете, не существует.</p>
+            <Button
+              as={Link}
+              to="/resources/publications"
               color="primary"
               startContent={<Icon icon="lucide:arrow-left" />}
             >
-              Return to Publications
+              Вернуться к публикациям
             </Button>
           </div>
         </div>
@@ -152,10 +152,10 @@ export const PublicationDetailPage = () => {
       <div className="container mx-auto px-6">
         <Breadcrumbs className="mb-8">
           <BreadcrumbItem>
-            <Link to="/">Home</Link>
+            <Link to="/">Главная</Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <Link to="/resources/publications">Publications</Link>
+            <Link to="/resources/publications">Публикации</Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <span>{publication.title}</span>
@@ -187,7 +187,7 @@ export const PublicationDetailPage = () => {
                       startContent={<Icon icon="lucide:share-2" size={16} />}
                       onPress={onOpen}
                     >
-                      Share Article
+                      Поделиться статьёй
                     </Button>
                   </div>
                   
@@ -221,14 +221,14 @@ export const PublicationDetailPage = () => {
                     color="primary" 
                     startContent={<Icon icon="lucide:arrow-left" size={16} />}
                   >
-                    Back to Publications
+                    Назад к публикациям
                   </Button>
-                  <Button 
-                    variant="flat" 
-                    color="primary" 
+                  <Button
+                    variant="flat"
+                    color="primary"
                     endContent={<Icon icon="lucide:download" size={16} />}
                   >
-                    Download PDF
+                    Скачать PDF
                   </Button>
                 </div>
               </CardBody>
@@ -239,33 +239,33 @@ export const PublicationDetailPage = () => {
             <div className="sticky top-24">
               <Card className="border border-divider bg-content1 mb-6">
                 <CardBody className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">About the Author</h3>
+                  <h3 className="text-xl font-semibold mb-4">Об авторе</h3>
                   <div className="flex items-center gap-4 mb-4">
                     <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
                       <Icon icon="lucide:user" className="text-primary text-2xl" />
                     </div>
                     <div>
                       <h4 className="font-medium">{publication.author}</h4>
-                      <p className="text-sm text-foreground-600">Partner, CLAW Law Firm</p>
+                      <p className="text-sm text-foreground-600">Партнёр, Юридическая фирма CLAW</p>
                     </div>
                   </div>
                   <p className="text-foreground-600 text-sm">
-                    Specializing in complex cross-border litigation and asset recovery with over 15 years of experience in international financial centers.
+                    Специализируется на сложных трансграничных судебных спорах и возврате активов, имеет более 15 лет опыта в международных финансовых центрах.
                   </p>
-                  <Button 
-                    variant="light" 
-                    color="primary" 
+                  <Button
+                    variant="light"
+                    color="primary"
                     className="w-full mt-4"
                     endContent={<Icon icon="lucide:arrow-right" size={16} />}
                   >
-                    View Profile
+                    Смотреть профиль
                   </Button>
                 </CardBody>
               </Card>
               
               <Card className="border border-divider bg-content1 mb-6">
                 <CardBody className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Related Publications</h3>
+                  <h3 className="text-xl font-semibold mb-4">Похожие публикации</h3>
                   <div className="flex flex-col gap-4">
                     {publications
                       .filter(p => p.id !== publicationId)
@@ -295,7 +295,7 @@ export const PublicationDetailPage = () => {
                       className="w-full"
                       endContent={<Icon icon="lucide:arrow-right" size={16} />}
                     >
-                      View All Publications
+                      Все публикации
                     </Button>
                   </div>
                 </CardBody>
@@ -303,18 +303,18 @@ export const PublicationDetailPage = () => {
               
               <Card className="border border-divider bg-content1">
                 <CardBody className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Need Legal Assistance?</h3>
+                  <h3 className="text-xl font-semibold mb-4">Нужна юридическая помощь?</h3>
                   <p className="text-foreground-600 mb-4">
-                    Contact our team of experts for a consultation on your asset recovery or litigation needs.
+                    Свяжитесь с нашей командой экспертов для консультации по вопросам возврата активов или судебных споров.
                   </p>
-                  <Button 
+                  <Button
                     as={Link}
                     to="/#contact"
-                    color="primary" 
+                    color="primary"
                     className="w-full"
                     endContent={<Icon icon="lucide:phone" size={16} />}
                   >
-                    Schedule a Consultation
+                    Записаться на консультацию
                   </Button>
                 </CardBody>
               </Card>
@@ -329,29 +329,29 @@ export const PublicationDetailPage = () => {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Share Article
+                Поделиться статьёй
               </ModalHeader>
               <ModalBody>
                 <div className="flex items-center gap-4 mb-4 bg-primary/5 p-4 rounded-lg">
                   <Icon icon="lucide:share-2" className="text-primary text-xl" />
                   <p className="text-foreground-700">
-                    Share this article with colleagues or clients via email.
+                    Поделитесь этой статьёй с коллегами или клиентами по электронной почте.
                   </p>
                 </div>
-                
+
                 <Input
-                  label="Recipient Email"
-                  placeholder="Enter recipient's email address"
+                  label="Email получателя"
+                  placeholder="Введите адрес электронной почты получателя"
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   variant="bordered"
                   className="mb-4"
                 />
-                
+
                 <Textarea
-                  label="Message (Optional)"
-                  placeholder="Add a personal message"
+                  label="Сообщение (необязательно)"
+                  placeholder="Добавьте личное сообщение"
                   value={shareMessage}
                   onValueChange={setShareMessage}
                   variant="bordered"
@@ -360,14 +360,14 @@ export const PublicationDetailPage = () => {
               </ModalBody>
               <ModalFooter>
                 <Button color="default" variant="light" onPress={onClose}>
-                  Cancel
+                  Отмена
                 </Button>
-                <Button 
+                <Button
                   color="primary"
                   onPress={handleShareArticle}
                   isLoading={isSubmitting}
                 >
-                  Send
+                  Отправить
                 </Button>
               </ModalFooter>
             </>

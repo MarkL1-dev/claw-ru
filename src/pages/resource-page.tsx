@@ -7,51 +7,51 @@ import { Icon } from "@iconify/react";
 const newsletterItems = [
   {
     id: "1",
-    title: "Asset Recovery Quarterly",
-    issue: "Issue 1",
-    date: "January 15, 2023",
+    title: "Ежеквартальник по возврату активов",
+    issue: "Выпуск 1",
+    date: "15 января 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=1",
-    summary: "Our inaugural newsletter covering recent developments in international asset recovery."
+    summary: "Наш первый выпуск, посвящённый последним событиям в сфере международного возврата активов."
   },
   {
     id: "2",
-    title: "Fraud Litigation Update",
-    issue: "Issue 2",
-    date: "March 22, 2023",
+    title: "Обзор судебных споров по мошенничеству",
+    issue: "Выпуск 2",
+    date: "22 марта 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=2",
-    summary: "Exploring recent developments in fraud litigation and enforcement strategies."
+    summary: "Разбор последних событий в судебных спорах о мошенничестве и стратегиях исполнения решений."
   },
   {
     id: "3",
-    title: "Insolvency Insights",
-    issue: "Issue 3",
-    date: "May 10, 2023",
+    title: "Аналитика по банкротству",
+    issue: "Выпуск 3",
+    date: "10 мая 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=3",
-    summary: "Focused on insolvency proceedings as a tool for asset recovery and creditor protection."
+    summary: "Фокус на процедурах банкротства как инструменте возврата активов и защиты кредиторов."
   },
   {
     id: "4",
-    title: "Regulatory Compliance Bulletin",
-    issue: "Issue 4",
-    date: "August 3, 2023",
+    title: "Бюллетень по нормативному соответствию",
+    issue: "Выпуск 4",
+    date: "3 августа 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=4",
-    summary: "Updates on regulatory changes affecting asset recovery and financial crime prevention."
+    summary: "Обновления о нормативных изменениях, влияющих на возврат активов и предотвращение финансовых преступлений."
   },
   {
     id: "5",
-    title: "Cross-Border Enforcement Review",
-    issue: "Issue 5",
-    date: "October 17, 2023",
+    title: "Обзор трансграничного исполнения",
+    issue: "Выпуск 5",
+    date: "17 октября 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=5",
-    summary: "Examining strategies for enforcing judgments and orders across multiple jurisdictions."
+    summary: "Рассмотрение стратегий исполнения судебных решений и приказов в нескольких юрисдикциях."
   },
   {
     id: "6",
-    title: "Digital Assets & Recovery Trends",
-    issue: "Issue 6",
-    date: "December 5, 2023",
+    title: "Цифровые активы и тренды возврата",
+    issue: "Выпуск 6",
+    date: "5 декабря 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=6",
-    summary: "Focusing on emerging challenges and solutions in cryptocurrency and digital asset recovery."
+    summary: "Фокус на новых вызовах и решениях в возврате криптовалюты и цифровых активов."
   }
 ];
 
@@ -59,51 +59,51 @@ const newsletterItems = [
 const publicationItems = [
   {
     id: "1",
-    title: "Cross-Border Asset Recovery: Legal Strategies and Challenges",
+    title: "Трансграничный возврат активов: юридические стратегии и вызовы",
     author: "Jonathan P. Harrington",
-    date: "February 8, 2023",
+    date: "8 февраля 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=11",
-    summary: "An in-depth analysis of legal strategies for cross-border asset recovery in complex fraud cases."
+    summary: "Углублённый анализ юридических стратегий трансграничного возврата активов в сложных делах о мошенничестве."
   },
   {
     id: "2",
-    title: "Piercing the Corporate Veil in Offshore Jurisdictions",
+    title: "Снятие корпоративной вуали в офшорных юрисдикциях",
     author: "Elizabeth Chen",
-    date: "April 17, 2023",
+    date: "17 апреля 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=12",
-    summary: "A comprehensive examination of the evolving jurisprudence on corporate veil piercing in offshore financial centers."
+    summary: "Комплексный разбор развивающейся судебной практики по снятию корпоративной вуали в офшорных финансовых центрах."
   },
   {
     id: "3",
-    title: "Digital Asset Recovery: Legal Frameworks and Practical Challenges",
+    title: "Возврат цифровых активов: правовые рамки и практические вызовы",
     author: "Marcus A. Williams",
-    date: "June 22, 2023",
+    date: "22 июня 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=13",
-    summary: "Exploring the emerging legal frameworks for recovering cryptocurrencies and other digital assets in fraud cases."
+    summary: "Разбор формирующихся правовых рамок возврата криптовалют и других цифровых активов в делах о мошенничестве."
   },
   {
     id: "4",
-    title: "Strategic Use of Insolvency Proceedings in Asset Recovery",
+    title: "Стратегическое использование процедур банкротства при возврате активов",
     author: "Sophia Rodriguez",
-    date: "August 14, 2023",
+    date: "14 августа 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=14",
-    summary: "Analyzing how insolvency proceedings can be leveraged as effective tools in complex asset recovery scenarios."
+    summary: "Анализ того, как процедуры банкротства могут использоваться в качестве эффективных инструментов в сложных сценариях возврата активов."
   },
   {
     id: "5",
-    title: "Enforcement of Foreign Judgments in the Cayman Islands",
+    title: "Исполнение иностранных судебных решений на Каймановых островах",
     author: "Jonathan P. Harrington",
-    date: "October 9, 2023",
+    date: "9 октября 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=15",
-    summary: "A detailed analysis of the legal framework and practical considerations for enforcing foreign judgments in the Cayman Islands."
+    summary: "Подробный анализ правовой базы и практических аспектов исполнения иностранных судебных решений на Каймановых островах."
   },
   {
     id: "6",
-    title: "Beneficial Ownership Disclosure: Implications for Asset Recovery",
+    title: "Раскрытие бенефициарного владения: последствия для возврата активов",
     author: "Elizabeth Chen",
-    date: "December 3, 2023",
+    date: "3 декабря 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=16",
-    summary: "Examining how beneficial ownership transparency initiatives impact asset tracing and recovery strategies."
+    summary: "Разбор того, как инициативы по прозрачности бенефициарного владения влияют на отслеживание активов и стратегии возврата."
   }
 ];
 
@@ -119,22 +119,22 @@ export const ResourcePage = () => {
   };
   
   const resourceTitles: Record<string, string> = {
-    "publications": "Legal Publications",
-    "newsletters": "Newsletters & Updates",
-    "webinars": "Webinars & Events"
+    "publications": "Юридические публикации",
+    "newsletters": "Рассылки и обновления",
+    "webinars": "Вебинары и мероприятия"
   };
-  
-  const title = resourceTitles[resourceType || ""] || "Resources";
+
+  const title = resourceTitles[resourceType || ""] || "Ресурсы";
   
   return (
     <div className="bg-background py-16">
       <div className="container mx-auto px-6">
         <Breadcrumbs className="mb-8">
           <BreadcrumbItem>
-            <Link to="/">Home</Link>
+            <Link to="/">Главная</Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span>Resources</span>
+            <span>Ресурсы</span>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <span>{title}</span>
@@ -143,11 +143,11 @@ export const ResourcePage = () => {
         
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-            <span className="text-primary font-semibold">Resources</span>
+            <span className="text-primary font-semibold">Ресурсы</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">{title}</h1>
           <p className="text-foreground-600 text-lg">
-            Access our latest insights, articles, and resources related to asset recovery and international law.
+            Знакомьтесь с нашими последними материалами, статьями и ресурсами по возврату активов и международному праву.
           </p>
           
           {/* Remove brochure download button for publications page */}
@@ -155,7 +155,7 @@ export const ResourcePage = () => {
             <div className="mt-6">
               <div className="inline-flex items-center gap-2 bg-content2 px-4 py-2 rounded-md">
                 <Icon icon="lucide:file-text" className="text-primary" />
-                <span className="text-foreground-700">Access our legal publications below</span>
+                <span className="text-foreground-700">Наши юридические публикации доступны ниже</span>
               </div>
             </div>
           )}
@@ -192,7 +192,7 @@ export const ResourcePage = () => {
                         size="sm"
                         endContent={<Icon icon="lucide:arrow-right" size={14} />}
                       >
-                        Read More
+                        Подробнее
                       </Button>
                     </div>
                   </div>
@@ -213,7 +213,7 @@ export const ResourcePage = () => {
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                    <p className="text-sm text-foreground-500 mb-3">By {item.author} • {item.date}</p>
+                    <p className="text-sm text-foreground-500 mb-3">Автор: {item.author} • {item.date}</p>
                     <p className="text-foreground-600 mb-4">{item.summary}</p>
                     <div className="flex justify-between items-center">
                       <Button 
@@ -224,7 +224,7 @@ export const ResourcePage = () => {
                         size="sm"
                         endContent={<Icon icon="lucide:arrow-right" size={14} />}
                       >
-                        Read Article
+                        Читать статью
                       </Button>
                     </div>
                   </div>
@@ -240,14 +240,14 @@ export const ResourcePage = () => {
                     <Icon icon="lucide:video" className="text-primary text-xl" />
                   </div>
                   <h3 className="text-xl font-semibold">
-                    {`Webinar Session ${item}`}
+                    {`Вебинар, сессия ${item}`}
                   </h3>
                   <p className="text-foreground-600">
-                    {`A recorded webinar session discussing key aspects of international litigation and asset recovery strategies.`}
+                    {`Запись вебинара, на котором обсуждаются ключевые аспекты международных судебных споров и стратегий возврата активов.`}
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-foreground-500">
-                      {new Date(2023, item % 12, item + 10).toLocaleDateString("en-US", {
+                      {new Date(2023, item % 12, item + 10).toLocaleDateString("ru-RU", {
                         year: "numeric",
                         month: "long",
                         day: "numeric"
@@ -260,7 +260,7 @@ export const ResourcePage = () => {
                       endContent={<Icon icon="lucide:arrow-right" size={14} />}
                       onPress={() => handleWebinarAccess(item)}
                     >
-                      Request Access
+                      Запросить доступ
                     </Button>
                   </div>
                 </CardBody>
@@ -276,53 +276,53 @@ export const ResourcePage = () => {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Webinar Access Request
+                Запрос доступа к вебинару
               </ModalHeader>
               <ModalBody>
                 <div className="flex items-center gap-4 mb-4 bg-primary/5 p-4 rounded-lg">
                   <Icon icon="lucide:info" className="text-primary text-xl" />
                   <p className="text-foreground-700">
-                    Webinar access is provided via a special link sent to your email. Please enter your email address to request access.
+                    Доступ к вебинару предоставляется по специальной ссылке, отправляемой на вашу электронную почту. Пожалуйста, укажите адрес электронной почты, чтобы запросить доступ.
                   </p>
                 </div>
-                
+
                 <p className="mb-4">
-                  You've requested access to <span className="font-semibold">Webinar Session {selectedWebinar}</span>. Our team will verify your credentials and send you the access link within 24 hours.
+                  Вы запросили доступ к <span className="font-semibold">сессии вебинара {selectedWebinar}</span>. Наша команда проверит ваши данные и направит вам ссылку доступа в течение 24 часов.
                 </p>
-                
+
                 <Input
-                  label="Email Address"
-                  placeholder="Enter your email address"
+                  label="Адрес электронной почты"
+                  placeholder="Введите ваш адрес электронной почты"
                   type="email"
                   variant="bordered"
                   className="mb-2"
                 />
-                
+
                 <Input
-                  label="Full Name"
-                  placeholder="Enter your full name"
+                  label="Полное имя"
+                  placeholder="Введите ваше полное имя"
                   variant="bordered"
                   className="mb-2"
                 />
-                
+
                 <Input
-                  label="Company/Organization"
-                  placeholder="Enter your company or organization"
+                  label="Компания/организация"
+                  placeholder="Введите вашу компанию или организацию"
                   variant="bordered"
                 />
               </ModalBody>
               <ModalFooter>
                 <Button color="default" variant="light" onPress={onClose}>
-                  Cancel
+                  Отмена
                 </Button>
-                <Button 
+                <Button
                   color="primary"
                   onPress={() => {
                     onClose();
                     // Here you would typically handle the form submission
                   }}
                 >
-                  Submit Request
+                  Отправить запрос
                 </Button>
               </ModalFooter>
             </>

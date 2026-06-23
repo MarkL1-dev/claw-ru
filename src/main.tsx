@@ -29,11 +29,11 @@ try {
   // Display error on page instead of blank screen
   rootElement.innerHTML = `
     <div style="padding: 20px; font-family: system-ui, sans-serif;">
-      <h1 style="color: #c20e4d;">Application Error</h1>
-      <p>The application failed to load properly. Please check the console for details.</p>
+      <h1 style="color: #c20e4d;">Ошибка приложения</h1>
+      <p>Не удалось корректно загрузить приложение. Подробности смотрите в консоли.</p>
       <pre style="background: #f1f3f5; padding: 10px; border-radius: 4px; overflow: auto;">${error instanceof Error ? error.message : String(error)}</pre>
       <button onclick="window.location.reload()" style="background: #0A2342; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin-top: 10px;">
-        Reload Page
+        Перезагрузить страницу
       </button>
     </div>
   `;

@@ -1,4 +1,13 @@
+# Dependencies
+node_modules/
+
+# Sensitive / environment
+.env
+.env.*
+
+# Deployment (contains repo URL, email, server config)
+deploy.sh
+
+# Server / infra
 nginx/
 certs/
-.env
-

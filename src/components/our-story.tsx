@@ -13,11 +13,11 @@ export const OurStory = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-            <span className="text-primary font-semibold">Our Legacy</span>
+            <span className="text-primary font-semibold">Наше наследие</span>
           </div>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">The CLAW Story</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">История CLAW</h2>
           <p className="text-foreground-600 text-lg max-w-3xl mx-auto">
-            From a boutique practice to a global leader in asset recovery, our journey reflects our unwavering commitment to excellence and client success.
+            От бутиковой практики до мирового лидера в области возврата активов — наш путь отражает неизменную приверженность совершенству и успеху клиентов.
           </p>
         </div>
         
@@ -38,9 +38,9 @@ export const OurStory = () => {
                 <div className="flex items-center justify-end mb-4">
                   <span className="text-primary font-bold text-xl">2004</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3">The Founding</h3>
+                <h3 className="text-xl font-bold mb-3">Основание</h3>
                 <p className="text-foreground-600">
-                  Former Cayman Islands Financial Authority counsel Jonathan Harrington establishes CLAW with a vision to provide unparalleled asset recovery services in one of the world's most complex financial jurisdictions.
+                  Джонатан Харрингтон, бывший юрисконсульт Финансового управления Каймановых островов, основывает CLAW с целью предоставлять непревзойдённые услуги по возврату активов в одной из самых сложных финансовых юрисдикций мира.
                 </p>
               </div>
             </motion.div>
@@ -54,7 +54,7 @@ export const OurStory = () => {
             <div className="md:hidden">
               <img 
                 src="https://img.heroui.chat/image/places?w=600&h=400&u=founding1" 
-                alt="CLAW Founding" 
+                alt="Основание CLAW"
                 className="w-full h-auto rounded-lg shadow-md"
               />
             </div>
@@ -65,7 +65,7 @@ export const OurStory = () => {
             <div className="md:hidden">
               <img 
                 src="https://img.heroui.chat/image/places?w=600&h=400&u=landmark1" 
-                alt="Landmark Case" 
+                alt="Знаковое дело"
                 className="w-full h-auto rounded-lg shadow-md"
               />
             </div>
@@ -83,19 +83,19 @@ export const OurStory = () => {
                 <div className="flex items-center mb-4">
                   <span className="text-primary font-bold text-xl">2009</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3">The Landmark Case</h3>
+                <h3 className="text-xl font-bold mb-3">Знаковое дело</h3>
                 <p className="text-foreground-600">
-                  During the global financial crisis, CLAW successfully traced and recovered $340 million in assets from a complex multi-jurisdictional fraud scheme that other firms had deemed "unrecoverable." This landmark case established our reputation as the go-to firm for challenging asset recovery matters.
+                  Во время мирового финансового кризиса CLAW успешно отследила и вернула активы на сумму 340 млн долларов из сложной мошеннической схемы с участием нескольких юрисдикций, которую другие фирмы сочли «безнадёжной». Это знаковое дело закрепило за нами репутацию фирмы, к которой обращаются в самых сложных делах по возврату активов.
                 </p>
                 <div className="mt-4 flex items-center">
-                  <Tooltip content="View Case Study" placement="bottom">
+                  <Tooltip content="Посмотреть кейс" placement="bottom">
                     <Button
                       size="sm"
                       variant="light"
                       color="primary"
                       endContent={<Icon icon="lucide:arrow-right" size={14} />}
                     >
-                      Read the Case Study
+                      Читать кейс
                     </Button>
                   </Tooltip>
                 </div>
@@ -122,9 +122,9 @@ export const OurStory = () => {
                 <div className="flex items-center justify-end mb-4">
                   <span className="text-primary font-bold text-xl">2015</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3">Global Expansion</h3>
+                <h3 className="text-xl font-bold mb-3">Международная экспансия</h3>
                 <p className="text-foreground-600">
-                  With a growing international reputation, CLAW establishes strategic partnerships with law firms in London, New York, and Hong Kong, creating a global network capable of handling complex cross-border asset recovery cases.
+                  С ростом международной репутации CLAW устанавливает стратегические партнёрства с юридическими фирмами в Лондоне, Нью-Йорке и Гонконге, создавая глобальную сеть, способную вести сложные трансграничные дела по возврату активов.
                 </p>
               </div>
             </motion.div>
@@ -138,7 +138,7 @@ export const OurStory = () => {
             <div className="md:hidden">
               <img 
                 src="https://img.heroui.chat/image/places?w=600&h=400&u=global1" 
-                alt="Global Expansion" 
+                alt="Международная экспансия"
                 className="w-full h-auto rounded-lg shadow-md"
               />
             </div>
@@ -149,7 +149,7 @@ export const OurStory = () => {
             <div className="md:hidden">
               <img 
                 src="https://img.heroui.chat/image/places?w=600&h=400&u=today1" 
-                alt="CLAW Today" 
+                alt="CLAW сегодня"
                 className="w-full h-auto rounded-lg shadow-md"
               />
             </div>
@@ -165,11 +165,11 @@ export const OurStory = () => {
             >
               <div className="bg-content1 p-6 rounded-lg shadow-md border border-divider h-full">
                 <div className="flex items-center mb-4">
-                  <span className="text-primary font-bold text-xl">Today</span>
+                  <span className="text-primary font-bold text-xl">Сегодня</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3">CLAW Today</h3>
+                <h3 className="text-xl font-bold mb-3">CLAW сегодня</h3>
                 <p className="text-foreground-600">
-                  CLAW stands at the intersection of traditional legal expertise and cutting-edge forensic technology. Our proprietary asset-tracing methodology combines advanced data analytics with deep knowledge of offshore financial structures, allowing us to succeed where conventional approaches fail.
+                  CLAW находится на стыке традиционной юридической экспертизы и передовых технологий финансовых расследований. Наша собственная методология отслеживания активов сочетает продвинутую аналитику данных с глубоким знанием офшорных финансовых структур, позволяя добиваться успеха там, где обычные подходы бессильны.
                 </p>
               </div>
             </motion.div>
@@ -196,7 +196,7 @@ export const OurStory = () => {
                   <Icon icon="lucide:briefcase" className="text-primary text-3xl" />
                 </div>
                 <h3 className="text-4xl font-bold text-primary">$27M+</h3>
-                <p className="text-foreground-600">Assets Recovered</p>
+                <p className="text-foreground-600">Возвращено активов</p>
               </CardBody>
             </Card>
           </motion.div>
@@ -213,7 +213,7 @@ export const OurStory = () => {
                   <Icon icon="lucide:users" className="text-primary text-3xl" />
                 </div>
                 <h3 className="text-4xl font-bold text-primary">30+</h3>
-                <p className="text-foreground-600">Legal Professionals</p>
+                <p className="text-foreground-600">Юристов в команде</p>
               </CardBody>
             </Card>
           </motion.div>
@@ -230,7 +230,7 @@ export const OurStory = () => {
                   <Icon icon="lucide:check-circle" className="text-primary text-3xl" />
                 </div>
                 <h3 className="text-4xl font-bold text-primary">94%</h3>
-                <p className="text-foreground-600">Success Rate</p>
+                <p className="text-foreground-600">Доля успешных дел</p>
               </CardBody>
             </Card>
           </motion.div>
@@ -261,11 +261,11 @@ export const OurStory = () => {
             
             <div>
               <p className="text-lg md:text-xl italic mb-6">
-                "Our success is built on a simple principle: we combine sophisticated legal strategies with innovative forensic techniques to recover assets that others cannot. When clients come to us, they've often been told their assets are unrecoverable. Proving that assumption wrong is what drives us every day."
+                «Наш успех строится на простом принципе: мы сочетаем продуманные юридические стратегии с инновационными методами финансовых расследований, чтобы возвращать активы, которые другим вернуть не под силу. Когда клиенты обращаются к нам, им часто уже сказали, что их активы вернуть невозможно. Опровергать это убеждение — то, что движет нами каждый день.»
               </p>
               <div>
                 <p className="font-semibold">Jonathan P. Harrington</p>
-                <p className="text-sm text-white/80">Founder & Managing Partner</p>
+                <p className="text-sm text-white/80">Основатель и управляющий партнёр</p>
               </div>
             </div>
           </div>

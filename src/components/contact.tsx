@@ -36,11 +36,11 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
       <div className="container mx-auto px-6 relative">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-            <span className="text-primary font-semibold">Get In Touch</span>
+            <span className="text-primary font-semibold">Свяжитесь с нами</span>
           </div>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Contact Us</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Контакты</h2>
           <p className="text-foreground-600 text-lg">
-            Schedule a confidential consultation with our legal experts.
+            Запишитесь на конфиденциальную консультацию с нашими юристами.
           </p>
         </div>
         
@@ -48,7 +48,7 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
           <div className="lg:col-span-7">
             <Card className="border border-divider bg-content1 shadow-md">
               <CardBody className="gap-6 p-8">
-                <h3 className="text-xl font-semibold">Send Us a Message</h3>
+                <h3 className="text-xl font-semibold">Напишите нам</h3>
                 <form 
                   onSubmit={handleSubmit}
                   className="flex flex-col gap-5"
@@ -56,8 +56,8 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <Input
                       name="name"
-                      label="Full Name"
-                      placeholder="Enter your full name"
+                      label="Полное имя"
+                      placeholder="Введите ваше полное имя"
                       value={formData.name}
                       onValueChange={(value) => handleChange("name", value)}
                       isRequired
@@ -69,7 +69,7 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                     <Input
                       name="email"
                       label="Email"
-                      placeholder="Enter your email address"
+                      placeholder="Введите ваш адрес электронной почты"
                       type="email"
                       value={formData.email}
                       onValueChange={(value) => handleChange("email", value)}
@@ -82,8 +82,8 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                   </div>
                   <Input
                     name="phone"
-                    label="Phone Number"
-                    placeholder="Enter your phone number"
+                    label="Номер телефона"
+                    placeholder="Введите ваш номер телефона"
                     value={formData.phone}
                     onValueChange={(value) => handleChange("phone", value)}
                     startContent={<Icon icon="lucide:phone" className="text-default-400" />}
@@ -93,8 +93,8 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                   />
                   <Textarea
                     name="message"
-                    label="Message"
-                    placeholder="How can we assist you?"
+                    label="Сообщение"
+                    placeholder="Чем мы можем вам помочь?"
                     value={formData.message}
                     onValueChange={(value) => handleChange("message", value)}
                     minRows={4}
@@ -112,7 +112,7 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                       isLoading={isSubmitting}
                       isDisabled={isSubmitting}
                     >
-                      Submit Inquiry
+                      Отправить заявку
                     </Button>
                   </div>
                 </form>
@@ -128,7 +128,7 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                     <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-3">
                       <Icon icon="lucide:building" className="text-primary" />
                     </div>
-                    Our Office
+                    Наш офис
                   </h3>
                   <div className="flex flex-col gap-5 pl-11">
                     <div className="flex items-start gap-3">
@@ -136,11 +136,11 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                         <Icon icon="lucide:map-pin" className="text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium">CLAW Law Firm</p>
+                        <p className="font-medium">CLAW — Юридическая фирма</p>
                         <p className="text-foreground-600">
-                          Elgin Avenue, George Town<br />
-                          Grand Cayman KY1-9000<br />
-                          Cayman Islands
+                          Elgin Avenue, Джорджтаун<br />
+                          Гранд-Кайман KY1-9000<br />
+                          Каймановы острова
                         </p>
                       </div>
                     </div>
@@ -150,7 +150,7 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                         <Icon icon="lucide:phone" className="text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium">Phone</p>
+                        <p className="font-medium">Телефон</p>
                         <p className="text-foreground-600">+1 (920) 212-9330</p>
                       </div>
                     </div>
@@ -172,19 +172,19 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
                     <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mr-3">
                       <Icon icon="lucide:clock" className="text-primary" />
                     </div>
-                    Office Hours
+                    Часы работы
                   </h3>
                   <div className="flex flex-col gap-3 pl-11">
                     <div className="flex justify-between">
-                      <span className="text-foreground-600">Monday - Friday</span>
-                      <span className="font-medium">9:00 AM - 5:30 PM</span>
+                      <span className="text-foreground-600">Понедельник – Пятница</span>
+                      <span className="font-medium">9:00 – 17:30</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-foreground-600">Saturday - Sunday</span>
-                      <span className="font-medium">Closed</span>
+                      <span className="text-foreground-600">Суббота – Воскресенье</span>
+                      <span className="font-medium">Выходной</span>
                     </div>
                     <p className="text-foreground-600 mt-2 italic">
-                      Consultations by appointment only. Virtual meetings available for international clients.
+                      Консультации только по предварительной записи. Для международных клиентов доступны онлайн-встречи.
                     </p>
                   </div>
                 </div>
@@ -202,21 +202,21 @@ export const Contact = ({ standalone = false }: { standalone?: boolean }) => {
               <ModalHeader className="flex flex-col gap-1">
                 <div className="flex items-center gap-2">
                   <Icon icon="lucide:check-circle" className="text-success text-2xl" />
-                  <span>Message Sent Successfully</span>
+                  <span>Сообщение успешно отправлено</span>
                 </div>
               </ModalHeader>
               <ModalBody>
                 <p>
-                  Thank you for contacting CLAW Law Firm. Your message has been received.
+                  Благодарим за обращение в юридическую фирму CLAW. Ваше сообщение получено.
                 </p>
                 <p>
-                  Our team will review your inquiry and get back to you as soon as possible,
-                  typically within 1-2 business days.
+                  Наша команда рассмотрит ваш запрос и свяжется с вами в ближайшее время,
+                  как правило, в течение 1–2 рабочих дней.
                 </p>
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
-                  Close
+                  Закрыть
                 </Button>
               </ModalFooter>
             </>

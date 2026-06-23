@@ -5,28 +5,28 @@ import { Icon } from "@iconify/react";
 
 const jobOpenings = [
   {
-    title: "Senior Associate - Asset Recovery",
-    location: "Grand Cayman",
-    type: "Full-time",
-    description: "We are seeking an experienced Senior Associate to join our Asset Recovery practice. The ideal candidate will have 5+ years of experience in complex financial litigation and asset tracing."
+    title: "Старший юрист — возврат активов",
+    location: "Гранд-Кайман",
+    type: "Полная занятость",
+    description: "Мы ищем опытного старшего юриста в нашу практику возврата активов. Идеальный кандидат имеет более 5 лет опыта в сложных финансовых судебных спорах и отслеживании активов."
   },
   {
-    title: "Associate - Fraud Litigation",
-    location: "Grand Cayman",
-    type: "Full-time",
-    description: "An opportunity for a mid-level Associate to join our Fraud Litigation team. You will work directly with partners on high-profile international fraud cases."
+    title: "Юрист — судебные споры по мошенничеству",
+    location: "Гранд-Кайман",
+    type: "Полная занятость",
+    description: "Возможность для юриста среднего уровня присоединиться к команде по судебным спорам о мошенничестве. Вы будете напрямую работать с партнёрами над громкими международными делами о мошенничестве."
   },
   {
-    title: "Legal Assistant - Insolvency",
-    location: "Grand Cayman",
-    type: "Full-time",
-    description: "Supporting our Insolvency practice, this role involves assisting attorneys with case management, document preparation, and client communications."
+    title: "Помощник юриста — банкротство",
+    location: "Гранд-Кайман",
+    type: "Полная занятость",
+    description: "Поддержка нашей практики банкротства: помощь юристам в ведении дел, подготовке документов и коммуникации с клиентами."
   },
   {
-    title: "Business Development Manager",
-    location: "Remote/Hybrid",
-    type: "Full-time",
-    description: "Lead our business development initiatives, focusing on expanding our client base across international markets and promoting our specialized legal services."
+    title: "Менеджер по развитию бизнеса",
+    location: "Удалённо/гибрид",
+    type: "Полная занятость",
+    description: "Руководство инициативами по развитию бизнеса с фокусом на расширении клиентской базы на международных рынках и продвижении наших специализированных юридических услуг."
   }
 ];
 
@@ -65,7 +65,7 @@ export const CareersPage = () => {
   // Handle form submission
   const handleSubmit = () => {
     if (!formData.fullName || !formData.email) {
-      alert("Please fill in all required fields");
+      alert("Пожалуйста, заполните все обязательные поля");
       return;
     }
     
@@ -96,26 +96,26 @@ export const CareersPage = () => {
         <div className="container mx-auto px-6">
           <Breadcrumbs className="mb-8">
             <BreadcrumbItem>
-              <Link to="/">Home</Link>
+              <Link to="/">Главная</Link>
             </BreadcrumbItem>
             <BreadcrumbItem>
-              <span>Careers</span>
+              <span>Карьера</span>
             </BreadcrumbItem>
           </Breadcrumbs>
           
           <div className="max-w-3xl mx-auto text-center mb-16">
             <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-              <span className="text-primary font-semibold">Join Our Team</span>
+              <span className="text-primary font-semibold">Присоединяйтесь к команде</span>
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">Careers at CLAW</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Карьера в CLAW</h1>
             <p className="text-foreground-600 text-lg">
-              Join our team of legal professionals dedicated to excellence in asset recovery and international law.
+              Присоединяйтесь к нашей команде юристов, стремящихся к совершенству в возврате активов и международном праве.
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2">
-              <h2 className="text-2xl font-bold mb-6">Current Openings</h2>
+              <h2 className="text-2xl font-bold mb-6">Открытые вакансии</h2>
               
               <div className="space-y-6">
                 {jobOpenings.map((job, index) => (
@@ -141,7 +141,7 @@ export const CareersPage = () => {
                           endContent={<Icon icon="lucide:arrow-right" size={16} />}
                           onPress={() => handleApplyNow(job)}
                         >
-                          Apply Now
+                          Откликнуться
                         </Button>
                       </div>
                       <p className="mt-4 text-foreground-600">{job.description}</p>
@@ -154,54 +154,54 @@ export const CareersPage = () => {
             <div>
               <Card className="border border-divider bg-content1 sticky top-24">
                 <CardBody className="p-6 gap-6">
-                  <h3 className="text-xl font-semibold">Why Join CLAW?</h3>
-                  
+                  <h3 className="text-xl font-semibold">Почему CLAW?</h3>
+
                   <div className="flex items-start gap-3">
                     <div className="bg-primary/10 p-2 rounded-full mt-1">
                       <Icon icon="lucide:briefcase" className="text-primary" />
                     </div>
                     <div>
-                      <p className="font-medium">Challenging Work</p>
-                      <p className="text-sm text-foreground-600">Work on complex international cases with high-profile clients.</p>
+                      <p className="font-medium">Интересные задачи</p>
+                      <p className="text-sm text-foreground-600">Работа над сложными международными делами с известными клиентами.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <div className="bg-primary/10 p-2 rounded-full mt-1">
                       <Icon icon="lucide:trending-up" className="text-primary" />
                     </div>
                     <div>
-                      <p className="font-medium">Career Growth</p>
-                      <p className="text-sm text-foreground-600">Clear path for advancement and professional development.</p>
+                      <p className="font-medium">Карьерный рост</p>
+                      <p className="text-sm text-foreground-600">Понятный путь для продвижения и профессионального развития.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <div className="bg-primary/10 p-2 rounded-full mt-1">
                       <Icon icon="lucide:users" className="text-primary" />
                     </div>
                     <div>
-                      <p className="font-medium">Collaborative Culture</p>
-                      <p className="text-sm text-foreground-600">Work alongside industry-leading experts in a supportive environment.</p>
+                      <p className="font-medium">Культура сотрудничества</p>
+                      <p className="text-sm text-foreground-600">Работа рядом с ведущими экспертами отрасли в поддерживающей среде.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <div className="bg-primary/10 p-2 rounded-full mt-1">
                       <Icon icon="lucide:palm-tree" className="text-primary" />
                     </div>
                     <div>
-                      <p className="font-medium">Cayman Lifestyle</p>
-                      <p className="text-sm text-foreground-600">Enjoy living and working in one of the world's premier offshore financial centers.</p>
+                      <p className="font-medium">Жизнь на Каймановых островах</p>
+                      <p className="text-sm text-foreground-600">Живите и работайте в одном из ведущих офшорных финансовых центров мира.</p>
                     </div>
                   </div>
-                  
-                  <Button 
-                    color="primary" 
+
+                  <Button
+                    color="primary"
                     className="w-full mt-4"
                     endContent={<Icon icon="lucide:mail" size={16} />}
                   >
-                    Contact Recruiting
+                    Связаться с рекрутингом
                   </Button>
                 </CardBody>
               </Card>
@@ -209,30 +209,30 @@ export const CareersPage = () => {
           </div>
           
           <div className="mt-16">
-            <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
-            
+            <h2 className="text-2xl font-bold mb-6">Часто задаваемые вопросы</h2>
+
             <Accordion variant="splitted" className="max-w-3xl">
-              <AccordionItem key="1" title="What is the application process?">
+              <AccordionItem key="1" title="Как проходит процесс отбора?">
                 <p>
-                  Our application process typically involves submitting your resume and cover letter, followed by an initial screening call. Qualified candidates will then be invited for interviews with our team members and partners. The final stage may include a case study or practical assessment relevant to the position.
+                  Наш процесс отбора обычно включает отправку резюме и сопроводительного письма, после чего следует первичный отборочный звонок. Затем подходящих кандидатов приглашают на собеседования с членами нашей команды и партнёрами. Финальный этап может включать кейс или практическое задание, относящееся к должности.
                 </p>
               </AccordionItem>
-              
-              <AccordionItem key="2" title="Do you offer internships or training contracts?">
+
+              <AccordionItem key="2" title="Предлагаете ли вы стажировки или ученические договоры?">
                 <p>
-                  Yes, we offer summer internships for law students and articling positions for qualified candidates. These programs provide hands-on experience working with our legal teams on actual cases, giving participants valuable insights into the practice of international asset recovery and litigation.
+                  Да, мы предлагаем летние стажировки для студентов-юристов и позиции стажёров для подходящих кандидатов. Эти программы дают практический опыт работы с нашими юридическими командами над реальными делами и ценное понимание практики международного возврата активов и судебных споров.
                 </p>
               </AccordionItem>
-              
-              <AccordionItem key="3" title="What qualifications do you look for?">
+
+              <AccordionItem key="3" title="Какие квалификации вы ищете?">
                 <p>
-                  For attorney positions, we typically require a law degree from an accredited institution and relevant jurisdictional qualifications. Experience in financial services, insolvency, or cross-border litigation is highly valued. For support roles, we look for candidates with relevant experience and a strong attention to detail.
+                  Для юридических позиций мы, как правило, требуем диплом о юридическом образовании аккредитованного учреждения и соответствующую квалификацию в нужной юрисдикции. Высоко ценится опыт в финансовых услугах, банкротстве или трансграничных судебных спорах. Для вспомогательных ролей мы ищем кандидатов с соответствующим опытом и высокой внимательностью к деталям.
                 </p>
               </AccordionItem>
-              
-              <AccordionItem key="4" title="Do you offer relocation assistance?">
+
+              <AccordionItem key="4" title="Предоставляете ли вы помощь с переездом?">
                 <p>
-                  Yes, for certain positions we offer relocation assistance to candidates moving to the Cayman Islands. This may include temporary accommodation, moving allowance, and assistance with work permits and other administrative requirements.
+                  Да, для некоторых позиций мы предоставляем помощь с переездом кандидатам, перебирающимся на Каймановы острова. Это может включать временное жильё, пособие на переезд, а также помощь с получением разрешения на работу и иными административными вопросами.
                 </p>
               </AccordionItem>
             </Accordion>
@@ -243,7 +243,7 @@ export const CareersPage = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Apply for a Position</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">Подать заявку на вакансию</h2>
             
             <Card className="border border-divider bg-content1">
               <CardBody className="gap-6 p-8">
@@ -254,7 +254,7 @@ export const CareersPage = () => {
                   className="flex flex-col gap-5"
                 >
                   {/* FormSubmit configuration fields */}
-                  <input type="hidden" name="_subject" value="Career Application - CLAW Law Firm" />
+                  <input type="hidden" name="_subject" value="Отклик на вакансию — Юридическая фирма CLAW" />
                   <input type="hidden" name="_next" value={window.location.origin + "/careers?applied=true"} />
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="_template" value="table" />
@@ -263,15 +263,15 @@ export const CareersPage = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <Input
                       name="fullName"
-                      label="Full Name"
-                      placeholder="Enter your full name"
+                      label="Полное имя"
+                      placeholder="Введите ваше полное имя"
                       isRequired
                       variant="bordered"
                     />
                     <Input
                       name="email"
                       label="Email"
-                      placeholder="Enter your email address"
+                      placeholder="Введите ваш адрес электронной почты"
                       type="email"
                       isRequired
                       variant="bordered"
@@ -280,19 +280,19 @@ export const CareersPage = () => {
                   
                   <div className="space-y-2">
                     <label className="text-sm font-medium">
-                      Phone Number <span className="text-danger">*</span>
+                      Номер телефона <span className="text-danger">*</span>
                     </label>
                     <Input
                       name="phone"
-                      label="Phone Number"
-                      placeholder="Enter your phone number"
+                      label="Номер телефона"
+                      placeholder="Введите ваш номер телефона"
                       variant="bordered"
                     />
                   </div>
                   
                   <div className="space-y-2">
                     <label className="text-sm font-medium">
-                      Resume/CV <span className="text-danger">*</span>
+                      Резюме/CV <span className="text-danger">*</span>
                     </label>
                     <div className="border-2 border-dashed border-divider rounded-lg p-4 text-center">
                       <input
@@ -306,10 +306,10 @@ export const CareersPage = () => {
                         <div className="flex flex-col items-center gap-2">
                           <Icon icon="lucide:upload-cloud" className="text-primary text-3xl" />
                           <p className="font-medium">
-                            {formData.resumeFile ? formData.resumeFile.name : "Upload your resume"}
+                            {formData.resumeFile ? formData.resumeFile.name : "Загрузите ваше резюме"}
                           </p>
                           <p className="text-sm text-foreground-500">
-                            {formData.resumeFile ? `${(formData.resumeFile.size / 1024 / 1024).toFixed(2)} MB` : "PDF, DOC, or DOCX up to 5MB"}
+                            {formData.resumeFile ? `${(formData.resumeFile.size / 1024 / 1024).toFixed(2)} МБ` : "PDF, DOC или DOCX до 5 МБ"}
                           </p>
                         </div>
                       </label>
@@ -318,12 +318,12 @@ export const CareersPage = () => {
                   
                   <div className="space-y-2">
                     <label className="text-sm font-medium">
-                      Cover Letter <span className="text-danger">*</span>
+                      Сопроводительное письмо <span className="text-danger">*</span>
                     </label>
                     <Textarea
                       name="coverLetter"
-                      label="Cover Letter"
-                      placeholder="Tell us why you're interested in this position and what makes you a good fit"
+                      label="Сопроводительное письмо"
+                      placeholder="Расскажите, почему вас заинтересовала эта вакансия и почему вы подходите"
                       value={formData.coverLetter}
                       onValueChange={(value) => handleInputChange("coverLetter", value)}
                       minRows={4}
@@ -338,7 +338,7 @@ export const CareersPage = () => {
                       className="w-full"
                       isLoading={isSubmitting}
                     >
-                      Submit Application
+                      Отправить заявку
                     </Button>
                   </div>
                 </form>

@@ -5,46 +5,46 @@ import { Icon } from "@iconify/react";
 export const TermsOfService = () => {
   return (
     <PolicyLayout 
-      title="Terms of Service" 
-      lastUpdated="January 15, 2024"
+      title="Условия использования"
+      lastUpdated="15 января 2024 г."
       policyPath="terms-of-service"
     >
       <div className="bg-primary/5 p-6 rounded-lg mb-8 border-l-4 border-primary">
         <p className="text-lg font-medium mb-0">
-          These Terms of Service constitute a legally binding agreement between you and CLAW Law Firm. By accessing our site, you agree to be bound by these terms.
+          Настоящие Условия использования представляют собой юридически обязывающее соглашение между вами и юридической фирмой CLAW. Получая доступ к нашему сайту, вы соглашаетесь соблюдать эти условия.
         </p>
       </div>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Agreement to Terms</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Согласие с условиями</h2>
         <p className="mb-4 leading-relaxed">
-          These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and CLAW Law Firm ("we," "us" or "our"), concerning your access to and use of the website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the "Site").
+          Настоящие Условия использования представляют собой юридически обязывающее соглашение, заключаемое между вами — лично или от имени юридического лица («вы») — и юридической фирмой CLAW («мы», «нас» или «наш») в отношении вашего доступа к веб-сайту и его использования, а также к любым иным медиаформам, медиаканалам, мобильным веб-сайтам или мобильным приложениям, связанным с ним, ссылающимся на него или иным образом с ним соединённым (совместно — «Сайт»).
         </p>
-        
+
         <div className="flex items-center gap-4 p-4 bg-warning/10 rounded-lg my-6 border-l-4 border-warning">
           <Icon icon="lucide:alert-triangle" className="text-warning text-xl" />
           <p className="m-0 leading-relaxed">
-            You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Service. If you do not agree with all of these Terms of Service, then you are expressly prohibited from using the Site and you must discontinue use immediately.
+            Вы соглашаетесь, что, получая доступ к Сайту, вы прочитали, поняли и согласны соблюдать все настоящие Условия использования. Если вы не согласны со всеми настоящими Условиями использования, вам прямо запрещается использовать Сайт, и вы обязаны немедленно прекратить его использование.
           </p>
         </div>
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Intellectual Property Rights</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Права интеллектуальной собственности</h2>
         <div className="relative pl-6 border-l-2 border-primary/30 my-6">
           <p className="leading-relaxed">
-            Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the "Content") and the trademarks, service marks, and logos contained therein (the "Marks") are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, international copyright laws, and international conventions.
+            Если не указано иное, Сайт является нашей собственностью, и весь исходный код, базы данных, функциональность, программное обеспечение, дизайн веб-сайта, аудио, видео, текст, фотографии и графика на Сайте (совместно — «Контент»), а также содержащиеся в нём товарные знаки, знаки обслуживания и логотипы («Знаки») принадлежат нам или контролируются нами либо лицензированы нам и защищены законами об авторском праве и товарных знаках, а также различными иными правами интеллектуальной собственности и законами о недобросовестной конкуренции Соединённых Штатов, международными законами об авторском праве и международными конвенциями.
           </p>
         </div>
         <p className="leading-relaxed">
-          The Content and the Marks are provided on the Site "AS IS" for your information and personal use only. Except as expressly provided in these Terms of Service, no part of the Site and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
+          Контент и Знаки предоставляются на Сайте «КАК ЕСТЬ» исключительно для вашего ознакомления и личного использования. За исключением случаев, прямо предусмотренных настоящими Условиями использования, никакая часть Сайта и никакой Контент или Знаки не могут быть скопированы, воспроизведены, агрегированы, повторно опубликованы, загружены, размещены, публично показаны, закодированы, переведены, переданы, распространены, проданы, лицензированы или иным образом использованы в любых коммерческих целях без нашего прямого предварительного письменного разрешения.
         </p>
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">User Representations</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Заверения пользователя</h2>
         <p className="mb-4 leading-relaxed">
-          By using the Site, you represent and warrant that:
+          Используя Сайт, вы заверяете и гарантируете, что:
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
@@ -53,7 +53,7 @@ export const TermsOfService = () => {
               <div className="bg-primary/10 p-1 rounded-full mt-1 flex-shrink-0">
                 <Icon icon="lucide:check" className="text-primary" />
               </div>
-              <p className="m-0 leading-relaxed">All registration information you submit will be true, accurate, current, and complete</p>
+              <p className="m-0 leading-relaxed">Вся предоставляемая вами регистрационная информация будет правдивой, точной, актуальной и полной</p>
             </div>
           </div>
           
@@ -62,7 +62,7 @@ export const TermsOfService = () => {
               <div className="bg-primary/10 p-1 rounded-full mt-1 flex-shrink-0">
                 <Icon icon="lucide:check" className="text-primary" />
               </div>
-              <p className="m-0 leading-relaxed">You will maintain the accuracy of such information and promptly update as necessary</p>
+              <p className="m-0 leading-relaxed">Вы будете поддерживать точность такой информации и своевременно обновлять её при необходимости</p>
             </div>
           </div>
           
@@ -71,7 +71,7 @@ export const TermsOfService = () => {
               <div className="bg-primary/10 p-1 rounded-full mt-1 flex-shrink-0">
                 <Icon icon="lucide:check" className="text-primary" />
               </div>
-              <p className="m-0 leading-relaxed">You have the legal capacity and agree to comply with these Terms of Service</p>
+              <p className="m-0 leading-relaxed">Вы обладаете правоспособностью и соглашаетесь соблюдать настоящие Условия использования</p>
             </div>
           </div>
           
@@ -80,7 +80,7 @@ export const TermsOfService = () => {
               <div className="bg-primary/10 p-1 rounded-full mt-1 flex-shrink-0">
                 <Icon icon="lucide:check" className="text-primary" />
               </div>
-              <p className="m-0 leading-relaxed">You are not a minor in the jurisdiction in which you reside</p>
+              <p className="m-0 leading-relaxed">Вы не являетесь несовершеннолетним в юрисдикции, в которой проживаете</p>
             </div>
           </div>
           
@@ -89,7 +89,7 @@ export const TermsOfService = () => {
               <div className="bg-primary/10 p-1 rounded-full mt-1 flex-shrink-0">
                 <Icon icon="lucide:check" className="text-primary" />
               </div>
-              <p className="m-0 leading-relaxed">You will not access the Site through automated or non-human means</p>
+              <p className="m-0 leading-relaxed">Вы не будете получать доступ к Сайту с помощью автоматизированных или не-человеческих средств</p>
             </div>
           </div>
           
@@ -98,43 +98,43 @@ export const TermsOfService = () => {
               <div className="bg-primary/10 p-1 rounded-full mt-1 flex-shrink-0">
                 <Icon icon="lucide:check" className="text-primary" />
               </div>
-              <p className="m-0 leading-relaxed">You will not use the Site for any illegal or unauthorized purpose</p>
+              <p className="m-0 leading-relaxed">Вы не будете использовать Сайт в любых незаконных или несанкционированных целях</p>
             </div>
           </div>
         </div>
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Prohibited Activities</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Запрещённые действия</h2>
         <p className="mb-4 leading-relaxed">
-          You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
+          Вы не вправе получать доступ к Сайту или использовать его в каких-либо целях, кроме тех, для которых мы предоставляем Сайт. Сайт не может использоваться в связи с любой коммерческой деятельностью, за исключением той, которая прямо одобрена или утверждена нами.
         </p>
         <p className="mb-4 leading-relaxed">
-          As a user of the Site, you agree not to:
+          Как пользователь Сайта, вы соглашаетесь не:
         </p>
         <ol className="list-decimal pl-6 space-y-3 mb-4">
-          <li className="leading-relaxed">Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.</li>
-          <li className="leading-relaxed">Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.</li>
-          <li className="leading-relaxed">Use the Site to advertise or offer to sell goods and services.</li>
-          <li className="leading-relaxed">Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.</li>
-          <li className="leading-relaxed">Engage in unauthorized framing of or linking to the Site.</li>
-          <li className="leading-relaxed">Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.</li>
+          <li className="leading-relaxed">Систематически извлекать данные или иной контент с Сайта для создания или составления, прямо или косвенно, коллекции, подборки, базы данных или каталога без нашего письменного разрешения.</li>
+          <li className="leading-relaxed">Осуществлять любое несанкционированное использование Сайта, включая сбор имён пользователей и/или адресов электронной почты пользователей электронными или иными средствами с целью рассылки незапрошенных писем, либо создание учётных записей пользователей автоматизированными средствами или под ложным предлогом.</li>
+          <li className="leading-relaxed">Использовать Сайт для рекламы или предложения товаров и услуг к продаже.</li>
+          <li className="leading-relaxed">Обходить, отключать или иным образом вмешиваться в функции безопасности Сайта, включая функции, которые предотвращают или ограничивают использование или копирование любого Контента либо устанавливают ограничения на использование Сайта и/или содержащегося в нём Контента.</li>
+          <li className="leading-relaxed">Осуществлять несанкционированное фреймирование Сайта или размещение ссылок на него.</li>
+          <li className="leading-relaxed">Обманывать, вводить в заблуждение нас и других пользователей, в частности в любых попытках узнать конфиденциальную информацию учётной записи, такую как пароли пользователей.</li>
         </ol>
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Contact Us</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Свяжитесь с нами</h2>
         <p className="mb-4 leading-relaxed">
-          In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
+          Чтобы урегулировать жалобу в отношении Сайта или получить дополнительную информацию об использовании Сайта, свяжитесь с нами:
         </p>
-        
+
         <div className="bg-content2 p-6 rounded-lg border border-divider">
-          <p className="font-semibold mb-2">CLAW Law Firm</p>
+          <p className="font-semibold mb-2">CLAW — Юридическая фирма</p>
           <p className="mb-0">
-            Elgin Avenue, George Town<br />
-            Grand Cayman KY1-9000<br />
-            Cayman Islands<br />
-            Phone: +1 (345) 555-0123<br />
+            Elgin Avenue, Джорджтаун<br />
+            Гранд-Кайман KY1-9000<br />
+            Каймановы острова<br />
+            Телефон: +1 (345) 555-0123<br />
             Email: <a href="mailto:legal@clawfirm.com" className="text-primary hover:underline">legal@clawfirm.com</a>
           </p>
         </div>

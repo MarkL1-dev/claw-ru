@@ -8,23 +8,23 @@ import { services } from "../components/services";
 const serviceDetails = {
   "asset-recovery": {
     heroImage: "https://images.unsplash.com/photo-1617203443952-6d2619f7ff4e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
-    subtitle: "Recovering Assets Across Jurisdictions",
-    overview: "Our Asset Recovery practice specializes in tracing and recovering assets that have been misappropriated, hidden, or transferred across multiple jurisdictions. We employ sophisticated investigative techniques and strategic legal action to identify and secure assets for our clients.",
+    subtitle: "Возврат активов в разных юрисдикциях",
+    overview: "Практика возврата активов специализируется на розыске и возврате активов, которые были незаконно присвоены, скрыты или выведены в несколько юрисдикций. Мы применяем сложные методы расследования и стратегические юридические действия, чтобы выявить и обеспечить сохранность активов наших клиентов.",
     approach: [
-      "Comprehensive asset tracing investigations",
-      "Strategic freezing orders and injunctions",
-      "Coordination with international law enforcement",
-      "Recovery through civil and criminal proceedings",
-      "Negotiated settlements and alternative dispute resolution"
+      "Комплексные расследования по отслеживанию активов",
+      "Стратегические приказы о замораживании и судебные запреты",
+      "Взаимодействие с международными правоохранительными органами",
+      "Возврат через гражданское и уголовное судопроизводство",
+      "Урегулирование путём переговоров и альтернативное разрешение споров"
     ],
     caseStudies: [
       {
-        title: "Cross-Border Fraud Recovery",
-        description: "Successfully recovered $75 million in assets hidden across five jurisdictions following a complex investment fraud scheme."
+        title: "Возврат при трансграничном мошенничестве",
+        description: "Успешно возвращены активы на сумму 75 млн долларов, скрытые в пяти юрисдикциях после сложной инвестиционно-мошеннической схемы."
       },
       {
-        title: "Corporate Embezzlement",
-        description: "Traced and recovered assets valued at $30 million misappropriated by former executives through a network of offshore entities."
+        title: "Корпоративное хищение",
+        description: "Отслежены и возвращены активы стоимостью 30 млн долларов, незаконно присвоенные бывшими руководителями через сеть офшорных компаний."
       }
     ],
     team: ["Jonathan P. Harrington", "Elizabeth Chen", "Marcus A. Williams"]
@@ -33,115 +33,115 @@ const serviceDetails = {
     heroImage: "https://images.unsplash.com/photo-1505663912202-ac22d4cb3707?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     // NOTE: Replace with Unsplash image using "courtroom" or "legal" keyword
     // Example: https://unsplash.com/photos/brown-wooden-gavel-on-brown-wooden-table-NIJuEQw0RKg
-    subtitle: "Strategic Litigation for Complex Fraud Cases",
-    overview: "Our Fraud Litigation team provides comprehensive legal representation in complex fraud cases, from initial investigation through to litigation and enforcement. We have extensive experience in handling high-stakes fraud matters involving multiple parties and jurisdictions.",
+    subtitle: "Стратегические судебные процессы по сложным делам о мошенничестве",
+    overview: "Команда по судебным спорам о мошенничестве обеспечивает комплексное юридическое представительство в сложных делах о мошенничестве — от первоначального расследования до судебного процесса и исполнения решений. Мы обладаем обширным опытом ведения дел о мошенничестве с высокими ставками, в которых участвуют несколько сторон и юрисдикций.",
     approach: [
-      "Thorough forensic investigation and evidence gathering",
-      "Strategic case planning and risk assessment",
-      "Aggressive pursuit of interim remedies",
-      "Experienced trial advocacy",
-      "Enforcement of judgments across jurisdictions"
+      "Тщательное финансовое расследование и сбор доказательств",
+      "Стратегическое планирование дела и оценка рисков",
+      "Активное добивание обеспечительных мер",
+      "Опытное представительство в суде",
+      "Исполнение судебных решений в разных юрисдикциях"
     ],
     caseStudies: [
       {
-        title: "Investment Fund Fraud",
-        description: "Successfully represented investors in litigation against fund managers who had misrepresented investment strategies, resulting in a $120 million recovery."
+        title: "Мошенничество инвестиционного фонда",
+        description: "Успешно представляли интересы инвесторов в споре против управляющих фондом, исказивших инвестиционные стратегии, что привело к возврату 120 млн долларов."
       },
       {
-        title: "Banking Fraud",
-        description: "Obtained judgment against former bank executives who had orchestrated a sophisticated fraud scheme, recovering $45 million for the financial institution."
+        title: "Банковское мошенничество",
+        description: "Получено судебное решение против бывших руководителей банка, организовавших сложную мошенническую схему, с возвратом 45 млн долларов финансовому учреждению."
       }
     ],
     team: ["Elizabeth Chen", "Marcus A. Williams", "Sophia Rodriguez"]
   },
   "insolvency-restructuring": {
     heroImage: "https://images.unsplash.com/photo-1483600516620-7254872369ae?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171",
-    subtitle: "Maximizing Recovery in Distressed Situations",
-    overview: "Our Insolvency & Restructuring practice provides expert guidance through insolvency proceedings, liquidations, and corporate restructuring. We work to maximize recovery for creditors while finding pragmatic solutions for distressed businesses.",
+    subtitle: "Максимальный возврат средств в кризисных ситуациях",
+    overview: "Практика банкротства и реструктуризации обеспечивает экспертное сопровождение процедур банкротства, ликвидации и корпоративной реструктуризации. Мы работаем над максимальным возвратом средств кредиторам, находя при этом прагматичные решения для проблемных компаний.",
     approach: [
-      "Strategic planning for distressed businesses",
-      "Representation of creditors, debtors, and insolvency practitioners",
-      "Cross-border insolvency proceedings",
-      "Corporate restructuring and reorganization",
-      "Distressed asset sales and acquisitions"
+      "Стратегическое планирование для проблемных компаний",
+      "Представительство кредиторов, должников и арбитражных управляющих",
+      "Трансграничные процедуры банкротства",
+      "Корпоративная реструктуризация и реорганизация",
+      "Продажа и приобретение проблемных активов"
     ],
     caseStudies: [
       {
-        title: "International Fund Liquidation",
-        description: "Acted as counsel to liquidators of a $500 million investment fund, successfully recovering assets for investors through complex litigation."
+        title: "Ликвидация международного фонда",
+        description: "Выступали юрисконсультами ликвидаторов инвестиционного фонда объёмом 500 млн долларов, успешно вернув активы инвесторам через сложный судебный процесс."
       },
       {
-        title: "Corporate Restructuring",
-        description: "Guided a multinational corporation through a complex restructuring process, preserving business operations and maximizing creditor recovery."
+        title: "Корпоративная реструктуризация",
+        description: "Провели многонациональную корпорацию через сложный процесс реструктуризации, сохранив операционную деятельность и максимизировав возврат средств кредиторам."
       }
     ],
     team: ["Jonathan P. Harrington", "Elizabeth Chen", "Sophia Rodriguez"]
   },
   "cross-border-enforcement": {
     heroImage: "https://images.unsplash.com/photo-1462899006636-339e08d1844e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
-    subtitle: "Enforcing Judgments Across Jurisdictions",
-    overview: "Our Cross-Border Enforcement team specializes in the enforcement of foreign judgments and arbitral awards in the Cayman Islands and other international jurisdictions. We navigate complex legal frameworks to ensure our clients' judgments are recognized and enforced effectively.",
+    subtitle: "Исполнение судебных решений в разных юрисдикциях",
+    overview: "Команда по трансграничному исполнению специализируется на исполнении иностранных судебных решений и арбитражных постановлений на Каймановых островах и в других международных юрисдикциях. Мы ориентируемся в сложных правовых системах, чтобы решения наших клиентов признавались и исполнялись эффективно.",
     approach: [
-      "Strategic enforcement planning",
-      "Recognition of foreign judgments and awards",
-      "Asset preservation and recovery",
-      "Coordination with local counsel in multiple jurisdictions",
-      "Negotiated settlements and alternative resolution strategies"
+      "Стратегическое планирование исполнения",
+      "Признание иностранных судебных решений и арбитражных постановлений",
+      "Сохранение и возврат активов",
+      "Взаимодействие с местными юристами в нескольких юрисдикциях",
+      "Урегулирование путём переговоров и альтернативные стратегии разрешения споров"
     ],
     caseStudies: [
       {
-        title: "Arbitration Award Enforcement",
-        description: "Successfully enforced a $200 million arbitration award against assets held in the Cayman Islands, overcoming complex jurisdictional challenges."
+        title: "Исполнение арбитражного решения",
+        description: "Успешно исполнили арбитражное решение на 200 млн долларов в отношении активов на Каймановых островах, преодолев сложные юрисдикционные препятствия."
       },
       {
-        title: "Multi-Jurisdictional Judgment",
-        description: "Coordinated the enforcement of a $85 million judgment across five jurisdictions, resulting in full recovery for our client."
+        title: "Решение по нескольким юрисдикциям",
+        description: "Координировали исполнение судебного решения на 85 млн долларов в пяти юрисдикциях, что привело к полному возврату средств клиенту."
       }
     ],
     team: ["Marcus A. Williams", "Jonathan P. Harrington", "Sophia Rodriguez"]
   },
   "corporate-disputes": {
     heroImage: "https://images.unsplash.com/photo-1630097208672-ffd0bc8ec8dc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
-    subtitle: "Resolving Complex Corporate Conflicts",
-    overview: "Our Corporate Disputes practice focuses on the resolution of shareholder disputes, director liability claims, and corporate governance matters. We provide strategic advice and representation to protect our clients' interests and preserve business value.",
+    subtitle: "Разрешение сложных корпоративных конфликтов",
+    overview: "Практика корпоративных споров сосредоточена на разрешении споров между акционерами, исков об ответственности директоров и вопросов корпоративного управления. Мы предоставляем стратегические консультации и представительство для защиты интересов клиентов и сохранения стоимости бизнеса.",
     approach: [
-      "Strategic dispute resolution planning",
-      "Shareholder derivative actions and direct claims",
-      "Director and officer liability litigation",
-      "Corporate governance advisory",
-      "Negotiated settlements and mediation"
+      "Стратегическое планирование разрешения споров",
+      "Косвенные иски акционеров и прямые требования",
+      "Судебные споры об ответственности директоров и должностных лиц",
+      "Консультирование по корпоративному управлению",
+      "Урегулирование путём переговоров и медиация"
     ],
     caseStudies: [
       {
-        title: "Shareholder Dispute",
-        description: "Successfully represented minority shareholders in a dispute over corporate control, securing a favorable settlement that protected their investment."
+        title: "Спор между акционерами",
+        description: "Успешно представляли миноритарных акционеров в споре о корпоративном контроле, добившись выгодного урегулирования, защитившего их инвестиции."
       },
       {
-        title: "Director Liability Claim",
-        description: "Defended directors against claims of breach of fiduciary duty, resulting in dismissal of all claims and recovery of legal costs."
+        title: "Иск об ответственности директора",
+        description: "Защищали директоров от обвинений в нарушении фидуциарных обязанностей, что привело к отклонению всех требований и возмещению судебных расходов."
       }
     ],
     team: ["Sophia Rodriguez", "Jonathan P. Harrington", "Elizabeth Chen"]
   },
   "regulatory-compliance": {
     heroImage: "https://images.unsplash.com/photo-1752697588939-cba91b0c78a8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171",
-    subtitle: "Navigating Complex Regulatory Frameworks",
-    overview: "Our Regulatory Compliance practice provides advisory services on regulatory compliance and representation in regulatory investigations and proceedings. We help clients navigate the complex regulatory landscape of the Cayman Islands and international financial regulations.",
+    subtitle: "Ориентирование в сложных нормативных системах",
+    overview: "Практика нормативного соответствия предоставляет консультации по вопросам соблюдения требований и представительство в регуляторных расследованиях и разбирательствах. Мы помогаем клиентам ориентироваться в сложной нормативной среде Каймановых островов и международном финансовом регулировании.",
     approach: [
-      "Regulatory compliance advisory",
-      "Internal investigations and risk assessments",
-      "Representation in regulatory investigations",
-      "Negotiation with regulatory authorities",
-      "Compliance program development and implementation"
+      "Консультирование по нормативному соответствию",
+      "Внутренние расследования и оценка рисков",
+      "Представительство в регуляторных расследованиях",
+      "Переговоры с регулирующими органами",
+      "Разработка и внедрение программ комплаенса"
     ],
     caseStudies: [
       {
-        title: "Regulatory Investigation",
-        description: "Successfully represented a financial institution in a regulatory investigation, resulting in no enforcement action and minimal reputational impact."
+        title: "Регуляторное расследование",
+        description: "Успешно представляли финансовое учреждение в регуляторном расследовании, в результате чего не было применено мер воздействия, а репутационный ущерб оказался минимальным."
       },
       {
-        title: "Compliance Program Implementation",
-        description: "Developed and implemented a comprehensive compliance program for a multinational corporation, ensuring adherence to Cayman Islands and international regulations."
+        title: "Внедрение программы комплаенса",
+        description: "Разработали и внедрили комплексную программу комплаенса для многонациональной корпорации, обеспечив соблюдение требований Каймановых островов и международных норм."
       }
     ],
     team: ["Sophia Rodriguez", "Marcus A. Williams", "Elizabeth Chen"]
@@ -173,15 +173,15 @@ export const ServicePage = () => {
   if (!service || !details) {
     return (
       <div className="container mx-auto px-6 py-20 text-center">
-        <h2 className="text-2xl font-bold mb-4">Service Not Found</h2>
-        <p className="mb-8">The service you are looking for does not exist.</p>
+        <h2 className="text-2xl font-bold mb-4">Услуга не найдена</h2>
+        <p className="mb-8">Услуга, которую вы ищете, не существует.</p>
         <Button 
           as={RouterLink} 
           to="/" 
           color="primary"
           startContent={<Icon icon="lucide:arrow-left" />}
         >
-          Return to Home
+          Вернуться на главную
         </Button>
       </div>
     );
@@ -208,7 +208,7 @@ export const ServicePage = () => {
                 </div>
                 <div>
                   <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-3">
-                    <span className="text-primary font-semibold">Legal Service</span>
+                    <span className="text-primary font-semibold">Юридическая услуга</span>
                   </div>
                   <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">{service.title}</h1>
                   <p className="text-foreground-600 text-lg mt-2">{details.subtitle}</p>
@@ -224,7 +224,7 @@ export const ServicePage = () => {
                   startContent={<Icon icon="lucide:arrow-left" size={16} />}
                   className="self-start"
                 >
-                  Back to Services
+                  Назад к услугам
                 </Button>
               </div>
             </CardBody>
@@ -238,14 +238,14 @@ export const ServicePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2">
               <div className="bg-content1 border border-divider rounded-lg p-8 shadow-sm mb-10">
-                <h2 className="text-2xl md:text-3xl font-bold mb-6">Overview</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-6">Обзор</h2>
                 <p className="text-foreground-600 mb-8 text-lg leading-relaxed">
                   {details.overview}
                 </p>
               </div>
               
               <div className="bg-content1 border border-divider rounded-lg p-8 shadow-sm mb-10">
-                <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Approach</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-6">Наш подход</h2>
                 <div className="space-y-5 mb-8">
                   {details.approach.map((item, index) => (
                     <div key={index} className="flex items-start gap-4">
@@ -259,7 +259,7 @@ export const ServicePage = () => {
               </div>
               
               <div className="bg-content1 border border-divider rounded-lg p-8 shadow-sm">
-                <h2 className="text-2xl md:text-3xl font-bold mb-6">Case Studies</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-6">Кейсы</h2>
                 <div className="space-y-8">
                   {details.caseStudies.map((caseStudy, index) => (
                     <Card key={index} className="border border-divider bg-content2">
@@ -281,9 +281,9 @@ export const ServicePage = () => {
             <div>
               <Card className="border border-divider bg-content1 sticky top-24 shadow-md">
                 <CardBody className="p-8">
-                  <h3 className="text-xl font-semibold mb-6">Contact Us About {service.title}</h3>
+                  <h3 className="text-xl font-semibold mb-6">Свяжитесь с нами по теме «{service.title}»</h3>
                   <p className="text-foreground-600 mb-6">
-                    Speak with our team of experts about your {service.title.toLowerCase()} needs.
+                    Обсудите с нашей командой экспертов ваши задачи в области «{service.title.toLowerCase()}».
                   </p>
                   <Button 
                     color="primary" 
@@ -291,7 +291,7 @@ export const ServicePage = () => {
                     endContent={<Icon icon="lucide:phone" size={16} />}
                     onClick={scrollToContact}
                   >
-                    Schedule a Consultation
+                    Записаться на консультацию
                   </Button>
                   <Button 
                     variant="flat" 
@@ -300,12 +300,12 @@ export const ServicePage = () => {
                     endContent={<Icon icon="lucide:mail" size={16} />}
                     onClick={scrollToContact}
                   >
-                    Email Us
+                    Написать нам
                   </Button>
                   
                   <Divider className="my-8" />
                   
-                  <h3 className="text-lg font-semibold mb-6">Key Team Members</h3>
+                  <h3 className="text-lg font-semibold mb-6">Ключевые участники команды</h3>
                   <div className="space-y-5">
                     {details.team.map((member, index) => (
                       <div key={index} className="flex items-center gap-4 p-3 bg-content2 rounded-lg">
@@ -314,7 +314,7 @@ export const ServicePage = () => {
                         </div>
                         <div>
                           <span className="font-medium">{member}</span>
-                          <p className="text-xs text-foreground-600">Expert in {service.title}</p>
+                          <p className="text-xs text-foreground-600">Эксперт в области «{service.title}»</p>
                         </div>
                       </div>
                     ))}
@@ -322,7 +322,7 @@ export const ServicePage = () => {
                   
                   <Divider className="my-8" />
                   
-                  <h3 className="text-lg font-semibold mb-6">Related Services</h3>
+                  <h3 className="text-lg font-semibold mb-6">Сопутствующие услуги</h3>
                   <div className="space-y-3">
                     {services
                       .filter(s => s.id !== serviceId)
@@ -357,7 +357,7 @@ export const ServicePage = () => {
                 <Icon icon="lucide:phone" className="text-primary" />
               </div>
               <div>
-                <p className="font-medium">Call Us</p>
+                <p className="font-medium">Позвоните нам</p>
                 <p className="text-foreground-600">+1 (360) 512-4092</p>
               </div>
             </div>

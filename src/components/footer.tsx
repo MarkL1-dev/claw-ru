@@ -14,47 +14,47 @@ export const Footer = () => {
               <p className="font-semibold tracking-tight">CAYMAN RECOVERY</p>
             </div>
             <p className="text-sm mb-4">
-              Specialized legal services in asset recovery, fraud litigation, and cross-border enforcement.
+              Специализированные юридические услуги по возврату активов, судебным спорам о мошенничестве и трансграничному исполнению решений.
             </p>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Services</h3>
+            <h3 className="font-semibold mb-4">Услуги</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" color="foreground">Asset Recovery</Link></li>
-              <li><Link href="#" color="foreground">Fraud Litigation</Link></li>
-              <li><Link href="#" color="foreground">Insolvency & Restructuring</Link></li>
-              <li><Link href="#" color="foreground">Cross-Border Enforcement</Link></li>
-              <li><Link href="#" color="foreground">Corporate Disputes</Link></li>
+              <li><Link href="#" color="foreground">Возврат активов</Link></li>
+              <li><Link href="#" color="foreground">Судебные споры по мошенничеству</Link></li>
+              <li><Link href="#" color="foreground">Банкротство и реструктуризация</Link></li>
+              <li><Link href="#" color="foreground">Трансграничное исполнение решений</Link></li>
+              <li><Link href="#" color="foreground">Корпоративные споры</Link></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-semibold mb-4">Быстрые ссылки</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link as={RouterLink} to="/" color="foreground">Home</Link></li>
-              <li><Link href="#services" color="foreground">Our Services</Link></li>
-              <li><Link href="#team" color="foreground">Our Team</Link></li>
-              <li><Link href="#testimonials" color="foreground">Testimonials</Link></li>
-              <li><Link href="#contact" color="foreground">Contact Us</Link></li>
+              <li><Link as={RouterLink} to="/" color="foreground">Главная</Link></li>
+              <li><Link href="#services" color="foreground">Наши услуги</Link></li>
+              <li><Link href="#team" color="foreground">Наша команда</Link></li>
+              <li><Link href="#testimonials" color="foreground">Отзывы</Link></li>
+              <li><Link href="#contact" color="foreground">Контакты</Link></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
+            <h3 className="font-semibold mb-4">Правовая информация</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link as={RouterLink} to="/policies/privacy-policy" color="foreground">Privacy Policy</Link></li>
-              <li><Link as={RouterLink} to="/policies/terms-of-service" color="foreground">Terms of Service</Link></li>
-              <li><Link as={RouterLink} to="/policies/cookie-policy" color="foreground">Cookie Policy</Link></li>
-              <li><Link as={RouterLink} to="/policies/disclaimer" color="foreground">Disclaimer</Link></li>
+              <li><Link as={RouterLink} to="/policies/privacy-policy" color="foreground">Политика конфиденциальности</Link></li>
+              <li><Link as={RouterLink} to="/policies/terms-of-service" color="foreground">Условия использования</Link></li>
+              <li><Link as={RouterLink} to="/policies/cookie-policy" color="foreground">Политика использования файлов cookie</Link></li>
+              <li><Link as={RouterLink} to="/policies/disclaimer" color="foreground">Отказ от ответственности</Link></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-divider mt-10 pt-6 text-sm text-foreground-600">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>© {new Date().getFullYear()} Cayman Recovery Law Firm. All rights reserved.</p>
-            <p>Regulated by the Cayman Islands Legal Practitioners Association</p>
+            <p>© {new Date().getFullYear()} Cayman Recovery Law Firm. Все права защищены.</p>
+            <p>Деятельность регулируется Ассоциацией практикующих юристов Каймановых островов</p>
           </div>
         </div>
       </div>

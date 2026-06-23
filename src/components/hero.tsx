@@ -22,7 +22,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="https://img.heroui.chat/image/places?w=1920&h=1080&u=1"
-          alt="Cayman Islands Skyline"
+          alt="Панорама Каймановых островов"
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-content1 to-transparent"></div>
@@ -32,10 +32,10 @@ export const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <div className="max-w-3xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-              Expert Asset Recovery & Legal Solutions
+              Профессиональный возврат активов и юридические решения
             </h1>
             <p className="text-lg md:text-xl text-foreground-600 mb-8 max-w-2xl">
-              Specialized in complex financial recovery cases with over 25 years of experience in the Cayman Islands jurisdiction.
+              Специализируемся на сложных делах по возврату финансовых активов — более 25 лет опыта в юрисдикции Каймановых островов.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
@@ -45,7 +45,7 @@ export const Hero = () => {
                 endContent={<Icon icon="lucide:arrow-right" />}
                 onPress={handleConsultationClick}
               >
-                Schedule a Consultation
+                Записаться на консультацию
               </Button>
               
               <Button 
@@ -56,24 +56,24 @@ export const Hero = () => {
                 startContent={<Icon icon="lucide:phone" />}
                 onPress={handleContactClick}
               >
-                Contact Us
+                Связаться с нами
               </Button>
             </div>
             
             <div className="mt-12 flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <Icon icon="lucide:check-circle" className="text-primary text-xl" />
-                <span className="text-sm font-medium">Confidential Consultations</span>
+                <span className="text-sm font-medium">Конфиденциальные консультации</span>
               </div>
               <div className="h-4 border-r border-divider"></div>
               <div className="flex items-center gap-2">
                 <Icon icon="lucide:check-circle" className="text-primary text-xl" />
-                <span className="text-sm font-medium">Global Recovery Network</span>
+                <span className="text-sm font-medium">Глобальная сеть по возврату активов</span>
               </div>
               <div className="h-4 border-r border-divider hidden md:block"></div>
               <div className="flex items-center gap-2 hidden md:flex">
                 <Icon icon="lucide:check-circle" className="text-primary text-xl" />
-                <span className="text-sm font-medium">Proven Results</span>
+                <span className="text-sm font-medium">Проверенные результаты</span>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export const Hero = () => {
             <div className="absolute top-32 -right-12 lg:-right-24 xl:right-0">
               <img
                 src="https://i.ibb.co/84664pYT/image-2025-10-29-09-56-12.png"
-                alt="Courthouse Building"
+                alt="Здание суда"
                 className="rounded-lg w-full max-w-md h-auto shadow-lg"
               />
             </div>

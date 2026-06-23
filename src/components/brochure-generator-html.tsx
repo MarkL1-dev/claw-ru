@@ -14,9 +14,9 @@ const SimpleBrochure: React.FC = () => {
             </div>
             
             <div className="text-center">
-              <h1 className="text-2xl font-bold mb-2">CLAW Law Firm Brochure</h1>
+              <h1 className="text-2xl font-bold mb-2">Брошюра юридической фирмы CLAW</h1>
               <p className="text-foreground-600">
-                Our comprehensive brochure is available for direct download in PDF format.
+                Наша подробная брошюра доступна для прямого скачивания в формате PDF.
               </p>
             </div>
             
@@ -24,7 +24,7 @@ const SimpleBrochure: React.FC = () => {
               <div className="flex items-center gap-4 mb-4">
                 <Icon icon="lucide:info" className="text-primary" />
                 <p className="text-sm text-foreground-700">
-                  The brochure contains detailed information about our services, team, and expertise in the Cayman Islands legal system.
+                  Брошюра содержит подробную информацию о наших услугах, команде и экспертизе в правовой системе Каймановых островов.
                 </p>
               </div>
               
@@ -37,11 +37,11 @@ const SimpleBrochure: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download Brochure (PDF)
+                Скачать брошюру (PDF)
               </Button>
-              
+
               <p className="text-xs text-center text-foreground-500 mt-3">
-                PDF format • 2.4 MB • Updated June 2023
+                Формат PDF • 2,4 МБ • Обновлено в июне 2023 г.
               </p>
             </div>
             
@@ -52,7 +52,7 @@ const SimpleBrochure: React.FC = () => {
               color="default"
               startContent={<Icon icon="lucide:arrow-left" />}
             >
-              Return to Homepage
+              Вернуться на главную
             </Button>
           </CardBody>
         </Card>

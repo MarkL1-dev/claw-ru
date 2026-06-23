@@ -6,27 +6,27 @@ import { useNavigate } from "react-router-dom";
 const team = [
   {
     name: "Jonathan P. Harrington",
-    role: "Managing Partner",
+    role: "Управляющий партнёр",
     image: "https://img.heroui.chat/image/avatar?w=400&h=400&u=1",
-    bio: "Over 25 years of experience in international asset recovery and complex commercial litigation.",
+    bio: "Более 25 лет опыта в международном возврате активов и сложных коммерческих судебных спорах.",
   },
   {
     name: "Elizabeth Chen",
-    role: "Senior Partner",
+    role: "Старший партнёр",
     image: "https://img.heroui.chat/image/avatar?w=400&h=400&u=2",
-    bio: "Specializes in cross-border insolvency and restructuring with expertise in Asian markets.",
+    bio: "Специализируется на трансграничном банкротстве и реструктуризации, эксперт по азиатским рынкам.",
   },
   {
     name: "Marcus A. Williams",
-    role: "Partner",
+    role: "Партнёр",
     image: "https://img.heroui.chat/image/avatar?w=400&h=400&u=3", // Replace with HeroUI image service
-    bio: "Focuses on fraud litigation and asset tracing across Caribbean and European jurisdictions.",
+    bio: "Специализируется на судебных спорах по мошенничеству и отслеживании активов в карибских и европейских юрисдикциях.",
   },
   {
     name: "Sophia Rodriguez",
-    role: "Partner",
+    role: "Партнёр",
     image: "https://img.heroui.chat/image/avatar?w=400&h=400&u=4", // Replace with HeroUI image service
-    bio: "Expert in regulatory compliance and financial services litigation with government experience.",
+    bio: "Эксперт по нормативному соответствию и судебным спорам в сфере финансовых услуг, с опытом работы в государственных органах.",
   }
 ];
 
@@ -60,11 +60,11 @@ export const Team = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16">
           <div className="max-w-xl">
             <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-              <span className="text-primary font-semibold">Meet Our Experts</span>
+              <span className="text-primary font-semibold">Познакомьтесь с нашими экспертами</span>
             </div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Our Legal Team</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Наша юридическая команда</h2>
             <p className="text-foreground-600 text-lg">
-              Experienced attorneys with specialized knowledge in asset recovery and international law.
+              Опытные юристы со специализированными знаниями в области возврата активов и международного права.
             </p>
           </div>
           <Button 
@@ -74,7 +74,7 @@ export const Team = () => {
             endContent={<Icon icon="lucide:arrow-right" size={16} />}
             onClick={() => scrollToSection('contact')}
           >
-            Contact Our Team
+            Связаться с командой
           </Button>
         </div>
         

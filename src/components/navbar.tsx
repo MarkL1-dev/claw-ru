@@ -7,7 +7,7 @@ export const Navbar = () => {
   // Update the document title when the component mounts
   React.useEffect(() => {
     // Set the document title
-    document.title = "CLAW Law Firm | Asset Recovery Specialists";
+    document.title = "CLAW — Юридическая фирма | Специалисты по возврату активов";
     
     // Update title on page changes if needed
     return () => {
@@ -64,7 +64,7 @@ export const Navbar = () => {
           <div className="flex items-center gap-6 text-xs">
             <div className="flex items-center gap-2">
               <Icon icon="lucide:map-pin" size={14} />
-              <span>Grand Cayman, Cayman Islands</span>
+              <span>Гранд-Кайман, Каймановы острова</span>
             </div>
           </div>
           
@@ -95,7 +95,7 @@ export const Navbar = () => {
             </div>
             <div>
               <p className="font-bold tracking-widest text-xl mb-0 leading-none">CLAW</p>
-              <p className="text-xs text-foreground-500 tracking-wider">LAW FIRM</p>
+              <p className="text-xs text-foreground-500 tracking-wider">ЮРИДИЧЕСКАЯ ФИРМА</p>
             </div>
           </RouterLink>
         </NavbarBrand>
@@ -111,7 +111,7 @@ export const Navbar = () => {
                 navigate('/');
               }}
             >
-              HOME
+              ГЛАВНАЯ
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -124,7 +124,7 @@ export const Navbar = () => {
                 scrollToSection('services');
               }}
             >
-              SERVICES
+              УСЛУГИ
             </Link>
           </NavbarItem>
           <NavbarItem>
@@ -137,7 +137,7 @@ export const Navbar = () => {
                 scrollToSection('testimonials');
               }}
             >
-              TESTIMONIALS
+              ОТЗЫВЫ
             </Link>
           </NavbarItem>
           
@@ -161,7 +161,7 @@ export const Navbar = () => {
                   e.preventDefault();
                 }}
               >
-                RESOURCES
+                РЕСУРСЫ
                 <Icon icon="lucide:chevron-down" size={16} />
               </Link>
               
@@ -173,7 +173,7 @@ export const Navbar = () => {
                     className="block px-4 py-2 text-sm hover:bg-content2 transition-colors"
                     onClick={() => setIsResourcesOpen(false)}
                   >
-                    Case Studies
+                    Кейсы
                   </Link>
                   <Link 
                     as={RouterLink}
@@ -181,7 +181,7 @@ export const Navbar = () => {
                     className="block px-4 py-2 text-sm hover:bg-content2 transition-colors"
                     onClick={() => setIsResourcesOpen(false)}
                   >
-                    Legal Publications
+                    Юридические публикации
                   </Link>
                   <Link 
                     as={RouterLink}
@@ -189,7 +189,7 @@ export const Navbar = () => {
                     className="block px-4 py-2 text-sm hover:bg-content2 transition-colors"
                     onClick={() => setIsResourcesOpen(false)}
                   >
-                    Newsletters
+                    Рассылки
                   </Link>
                   <Link 
                     as={RouterLink}
@@ -197,7 +197,7 @@ export const Navbar = () => {
                     className="block px-4 py-2 text-sm hover:bg-content2 transition-colors"
                     onClick={() => setIsResourcesOpen(false)}
                   >
-                    Webinars
+                    Вебинары
                   </Link>
                   <Divider className="my-1" />
                   <Link 
@@ -206,7 +206,7 @@ export const Navbar = () => {
                     className="block px-4 py-2 text-sm hover:bg-content2 transition-colors"
                     onClick={() => setIsResourcesOpen(false)}
                   >
-                    Careers
+                    Карьера
                   </Link>
                 </div>
               )}
@@ -224,7 +224,7 @@ export const Navbar = () => {
               onClick={() => navigate('/contact')} // Direct navigation to contact page
               endContent={<span className="ml-1">→</span>}
             >
-              CONTACT US
+              КОНТАКТЫ
             </Button>
           </NavbarItem>
         </NavbarContent>

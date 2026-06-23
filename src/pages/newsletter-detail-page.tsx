@@ -7,38 +7,38 @@ import { Icon } from "@iconify/react";
 const newsletters = [
   {
     id: "1",
-    title: "Asset Recovery Quarterly",
-    issue: "Issue 1",
-    date: "January 15, 2023",
+    title: "Ежеквартальник по возврату активов",
+    issue: "Выпуск 1",
+    date: "15 января 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=1",
-    summary: "Our inaugural newsletter covering recent developments in international asset recovery.",
+    summary: "Наш первый выпуск, посвящённый последним событиям в сфере международного возврата активов.",
     content: [
       {
         type: "intro",
-        text: "Welcome to the inaugural issue of Asset Recovery Quarterly, where we explore recent developments and strategies in international asset recovery."
+        text: "Добро пожаловать в первый выпуск «Ежеквартальника по возврату активов», где мы разбираем последние события и стратегии в области международного возврата активов."
       },
       {
         type: "article",
-        title: "Recent Developments in Cross-Border Asset Recovery",
-        text: "This quarter has seen significant developments in the legal frameworks governing cross-border asset recovery. Courts in multiple jurisdictions have issued rulings that expand the tools available to practitioners seeking to recover misappropriated assets."
+        title: "Последние события в трансграничном возврате активов",
+        text: "В этом квартале произошли значимые изменения в правовых рамках, регулирующих трансграничный возврат активов. Суды в нескольких юрисдикциях вынесли решения, расширяющие набор инструментов для специалистов, добивающихся возврата незаконно присвоенных активов."
       },
       {
         type: "case_study",
-        title: "Case Study: Multi-Jurisdictional Asset Recovery",
-        text: "In a recent case, our team successfully recovered assets valued at $45 million that had been dispersed across five jurisdictions following a sophisticated fraud scheme."
+        title: "Кейс: возврат активов в нескольких юрисдикциях",
+        text: "В недавнем деле наша команда успешно вернула активы стоимостью 45 млн долларов, рассредоточенные по пяти юрисдикциям после изощрённой мошеннической схемы."
       },
       {
         type: "legal_analysis",
-        title: "Legal Analysis: Freezing Orders in Offshore Jurisdictions",
-        text: "The effectiveness of freezing orders in offshore jurisdictions continues to evolve, with recent cases demonstrating both the power and limitations of these tools in asset recovery strategies."
+        title: "Юридический анализ: приказы о замораживании в офшорных юрисдикциях",
+        text: "Эффективность приказов о замораживании в офшорных юрисдикциях продолжает развиваться, и недавние дела демонстрируют как силу, так и ограничения этих инструментов в стратегиях возврата активов."
       },
       {
         type: "upcoming",
-        title: "Upcoming Events",
+        title: "Предстоящие мероприятия",
         items: [
-          "International Asset Recovery Conference - March 15-17, 2023",
-          "Webinar: Cryptocurrency Tracing Techniques - February 8, 2023",
-          "Workshop: Effective Use of Norwich Pharmacal Orders - April 5, 2023"
+          "Международная конференция по возврату активов — 15–17 марта 2023 г.",
+          "Вебинар: методы отслеживания криптовалюты — 8 февраля 2023 г.",
+          "Семинар: эффективное использование приказов Norwich Pharmacal — 5 апреля 2023 г."
         ]
       }
     ]
@@ -47,190 +47,190 @@ const newsletters = [
   // ... other newsletter entries with content property added ...
   {
     id: "2",
-    title: "Fraud Litigation Update",
-    issue: "Issue 2",
-    date: "March 22, 2023",
+    title: "Обзор судебных споров по мошенничеству",
+    issue: "Выпуск 2",
+    date: "22 марта 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=2",
-    summary: "Exploring recent developments in fraud litigation and enforcement strategies.",
+    summary: "Разбор последних событий в судебных спорах о мошенничестве и стратегиях исполнения решений.",
     content: [
       {
         type: "intro",
-        text: "This issue focuses on emerging trends in fraud litigation and innovative enforcement strategies across multiple jurisdictions."
+        text: "Этот выпуск посвящён формирующимся тенденциям в судебных спорах о мошенничестве и инновационным стратегиям исполнения решений в нескольких юрисдикциях."
       },
       {
         type: "article",
-        title: "Trends in Fraud Litigation",
-        text: "Recent court decisions have expanded the scope of liability for financial institutions in fraud cases, creating new opportunities for recovery."
+        title: "Тенденции в судебных спорах о мошенничестве",
+        text: "Недавние судебные решения расширили объём ответственности финансовых учреждений в делах о мошенничестве, создавая новые возможности для возврата."
       },
       {
         type: "case_study",
-        title: "Case Study: Financial Institution Liability",
-        text: "Our team recently secured a judgment against a financial institution that had failed to implement adequate anti-fraud measures, resulting in a $30 million recovery for our client."
+        title: "Кейс: ответственность финансового учреждения",
+        text: "Недавно наша команда добилась судебного решения против финансового учреждения, не внедрившего надлежащие меры по борьбе с мошенничеством, что привело к возврату 30 млн долларов нашему клиенту."
       },
       {
         type: "legal_analysis",
-        title: "Legal Analysis: Disclosure Orders Against Third Parties",
-        text: "The use of disclosure orders against third parties continues to be a powerful tool in fraud investigations, with courts increasingly willing to grant broad disclosure powers."
+        title: "Юридический анализ: приказы о раскрытии информации в отношении третьих лиц",
+        text: "Использование приказов о раскрытии информации в отношении третьих лиц остаётся мощным инструментом в расследованиях мошенничества, и суды всё чаще готовы предоставлять широкие полномочия по раскрытию."
       },
       {
         type: "upcoming",
-        title: "Upcoming Events",
+        title: "Предстоящие мероприятия",
         items: [
-          "Fraud Litigation Forum - May 10-12, 2023",
-          "Webinar: Third-Party Liability in Fraud Cases - April 18, 2023",
-          "Workshop: Effective Use of Disclosure Orders - June 7, 2023"
+          "Форум по судебным спорам о мошенничестве — 10–12 мая 2023 г.",
+          "Вебинар: ответственность третьих лиц в делах о мошенничестве — 18 апреля 2023 г.",
+          "Семинар: эффективное использование приказов о раскрытии информации — 7 июня 2023 г."
         ]
       }
     ]
   },
   {
     id: "3",
-    title: "Insolvency Insights",
-    issue: "Issue 3",
-    date: "May 10, 2023",
+    title: "Аналитика по банкротству",
+    issue: "Выпуск 3",
+    date: "10 мая 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=3",
-    summary: "Focused on insolvency proceedings as a tool for asset recovery and creditor protection.",
+    summary: "Фокус на процедурах банкротства как инструменте возврата активов и защиты кредиторов.",
     content: [
       {
         type: "intro",
-        text: "This issue explores the strategic use of insolvency proceedings in asset recovery and creditor protection scenarios."
+        text: "Этот выпуск посвящён стратегическому использованию процедур банкротства в сценариях возврата активов и защиты кредиторов."
       },
       {
         type: "article",
-        title: "Insolvency as an Asset Recovery Tool",
-        text: "Insolvency proceedings can be a powerful tool for asset recovery, providing liquidators with broad powers to investigate and recover assets."
+        title: "Банкротство как инструмент возврата активов",
+        text: "Процедуры банкротства могут быть мощным инструментом возврата активов, наделяя ликвидаторов широкими полномочиями по расследованию и возврату активов."
       },
       {
         type: "case_study",
-        title: "Case Study: Cross-Border Insolvency",
-        text: "In a recent case involving entities in multiple jurisdictions, our team used coordinated insolvency proceedings to recover assets for creditors."
+        title: "Кейс: трансграничное банкротство",
+        text: "В недавнем деле с участием компаний в нескольких юрисдикциях наша команда использовала скоординированные процедуры банкротства для возврата активов кредиторам."
       },
       {
         type: "legal_analysis",
-        title: "Legal Analysis: Recognition of Foreign Insolvency Proceedings",
-        text: "The recognition of foreign insolvency proceedings continues to evolve, with courts increasingly willing to cooperate across jurisdictions."
+        title: "Юридический анализ: признание иностранных процедур банкротства",
+        text: "Признание иностранных процедур банкротства продолжает развиваться, и суды всё чаще готовы к сотрудничеству между юрисдикциями."
       },
       {
         type: "upcoming",
-        title: "Upcoming Events",
+        title: "Предстоящие мероприятия",
         items: [
-          "Insolvency Practitioners Forum - July 12-14, 2023",
-          "Webinar: Cross-Border Insolvency Challenges - June 20, 2023",
-          "Workshop: Asset Recovery in Insolvency - August 9, 2023"
+          "Форум арбитражных управляющих — 12–14 июля 2023 г.",
+          "Вебинар: вызовы трансграничного банкротства — 20 июня 2023 г.",
+          "Семинар: возврат активов при банкротстве — 9 августа 2023 г."
         ]
       }
     ]
   },
   {
     id: "4",
-    title: "Regulatory Compliance Bulletin",
-    issue: "Issue 4",
-    date: "August 3, 2023",
+    title: "Бюллетень по нормативному соответствию",
+    issue: "Выпуск 4",
+    date: "3 августа 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=4",
-    summary: "Updates on regulatory changes affecting asset recovery and financial crime prevention.",
+    summary: "Обновления о нормативных изменениях, влияющих на возврат активов и предотвращение финансовых преступлений.",
     content: [
       {
         type: "intro",
-        text: "This issue provides updates on key regulatory changes affecting asset recovery and financial crime prevention strategies."
+        text: "Этот выпуск содержит обновления о ключевых нормативных изменениях, влияющих на стратегии возврата активов и предотвращения финансовых преступлений."
       },
       {
         type: "article",
-        title: "Regulatory Developments in Financial Crime Prevention",
-        text: "Recent regulatory changes have expanded reporting requirements and due diligence obligations for financial institutions."
+        title: "Нормативные изменения в предотвращении финансовых преступлений",
+        text: "Недавние нормативные изменения расширили требования к отчётности и обязанности по проверке благонадёжности для финансовых учреждений."
       },
       {
         type: "case_study",
-        title: "Case Study: Regulatory Investigation",
-        text: "Our team recently represented a client in a regulatory investigation, successfully navigating complex compliance requirements."
+        title: "Кейс: регуляторное расследование",
+        text: "Недавно наша команда представляла клиента в регуляторном расследовании, успешно справившись со сложными требованиями комплаенса."
       },
       {
         type: "legal_analysis",
-        title: "Legal Analysis: Impact of Regulatory Changes on Asset Recovery",
-        text: "New regulatory frameworks are creating both challenges and opportunities for asset recovery practitioners."
+        title: "Юридический анализ: влияние нормативных изменений на возврат активов",
+        text: "Новые нормативные рамки создают как вызовы, так и возможности для специалистов по возврату активов."
       },
       {
         type: "upcoming",
-        title: "Upcoming Events",
+        title: "Предстоящие мероприятия",
         items: [
-          "Regulatory Compliance Conference - September 18-20, 2023",
-          "Webinar: AML Compliance Updates - August 22, 2023",
-          "Workshop: Navigating Regulatory Investigations - October 11, 2023"
+          "Конференция по нормативному соответствию — 18–20 сентября 2023 г.",
+          "Вебинар: обновления комплаенса в сфере ПОД/ФТ — 22 августа 2023 г.",
+          "Семинар: прохождение регуляторных расследований — 11 октября 2023 г."
         ]
       }
     ]
   },
   {
     id: "5",
-    title: "Cross-Border Enforcement Review",
-    issue: "Issue 5",
-    date: "October 17, 2023",
+    title: "Обзор трансграничного исполнения",
+    issue: "Выпуск 5",
+    date: "17 октября 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=5",
-    summary: "Examining strategies for enforcing judgments and orders across multiple jurisdictions.",
+    summary: "Рассмотрение стратегий исполнения судебных решений и приказов в нескольких юрисдикциях.",
     content: [
       {
         type: "intro",
-        text: "This issue focuses on strategies and challenges in enforcing judgments and orders across multiple jurisdictions."
+        text: "Этот выпуск посвящён стратегиям и вызовам исполнения судебных решений и приказов в нескольких юрисдикциях."
       },
       {
         type: "article",
-        title: "Trends in Cross-Border Enforcement",
-        text: "Recent developments have expanded the tools available for enforcing judgments across jurisdictions, particularly in offshore financial centers."
+        title: "Тенденции в трансграничном исполнении",
+        text: "Недавние изменения расширили набор инструментов для исполнения судебных решений в разных юрисдикциях, особенно в офшорных финансовых центрах."
       },
       {
         type: "case_study",
-        title: "Case Study: Enforcement of Foreign Judgment",
-        text: "Our team recently secured the enforcement of a $100 million foreign judgment in a jurisdiction traditionally considered challenging for enforcement."
+        title: "Кейс: исполнение иностранного судебного решения",
+        text: "Недавно наша команда добилась исполнения иностранного судебного решения на 100 млн долларов в юрисдикции, традиционно считавшейся сложной для исполнения."
       },
       {
         type: "legal_analysis",
-        title: "Legal Analysis: Enforcement Challenges in Offshore Jurisdictions",
-        text: "Offshore jurisdictions present unique challenges for enforcement, requiring specialized strategies and local expertise."
+        title: "Юридический анализ: трудности исполнения в офшорных юрисдикциях",
+        text: "Офшорные юрисдикции создают уникальные трудности для исполнения, требуя специализированных стратегий и местной экспертизы."
       },
       {
         type: "upcoming",
-        title: "Upcoming Events",
+        title: "Предстоящие мероприятия",
         items: [
-          "Cross-Border Enforcement Symposium - November 15-17, 2023",
-          "Webinar: Enforcement Strategies in Offshore Jurisdictions - October 25, 2023",
-          "Workshop: Practical Approaches to Judgment Enforcement - December 6, 2023"
+          "Симпозиум по трансграничному исполнению — 15–17 ноября 2023 г.",
+          "Вебинар: стратегии исполнения в офшорных юрисдикциях — 25 октября 2023 г.",
+          "Семинар: практические подходы к исполнению судебных решений — 6 декабря 2023 г."
         ]
       }
     ]
   },
   {
     id: "6",
-    title: "Digital Assets & Recovery Trends",
-    issue: "Issue 6",
-    date: "December 5, 2023",
+    title: "Цифровые активы и тренды возврата",
+    issue: "Выпуск 6",
+    date: "5 декабря 2023 г.",
     image: "https://img.heroui.chat/image/book?w=800&h=400&u=6",
-    summary: "Focusing on emerging challenges and solutions in cryptocurrency and digital asset recovery.",
+    summary: "Фокус на новых вызовах и решениях в возврате криптовалюты и цифровых активов.",
     content: [
       {
         type: "intro",
-        text: "This issue explores the rapidly evolving landscape of digital asset recovery, including cryptocurrencies and other blockchain-based assets."
+        text: "Этот выпуск посвящён быстро развивающейся сфере возврата цифровых активов, включая криптовалюты и другие активы на основе блокчейна."
       },
       {
         type: "article",
-        title: "Digital Asset Recovery Challenges",
-        text: "The recovery of digital assets presents unique challenges, requiring specialized technical knowledge and innovative legal strategies."
+        title: "Вызовы возврата цифровых активов",
+        text: "Возврат цифровых активов сопряжён с уникальными вызовами, требующими специализированных технических знаний и инновационных юридических стратегий."
       },
       {
         type: "case_study",
-        title: "Case Study: Cryptocurrency Fraud Recovery",
-        text: "Our team recently recovered digital assets valued at $15 million following a sophisticated cryptocurrency fraud scheme."
+        title: "Кейс: возврат при криптовалютном мошенничестве",
+        text: "Недавно наша команда вернула цифровые активы стоимостью 15 млн долларов после изощрённой криптовалютной мошеннической схемы."
       },
       {
         type: "legal_analysis",
-        title: "Legal Analysis: Proprietary Claims to Digital Assets",
-        text: "Courts are increasingly recognizing proprietary claims to digital assets, creating new opportunities for recovery in fraud cases."
+        title: "Юридический анализ: вещные требования на цифровые активы",
+        text: "Суды всё чаще признают вещные требования на цифровые активы, создавая новые возможности для возврата в делах о мошенничестве."
       },
       {
         type: "upcoming",
-        title: "Upcoming Events",
+        title: "Предстоящие мероприятия",
         items: [
-          "Digital Asset Recovery Forum - January 22-24, 2024",
-          "Webinar: Blockchain Forensics for Lawyers - December 15, 2023",
-          "Workshop: Legal Strategies for Cryptocurrency Recovery - February 8, 2024"
+          "Форум по возврату цифровых активов — 22–24 января 2024 г.",
+          "Вебинар: блокчейн-форензика для юристов — 15 декабря 2023 г.",
+          "Семинар: юридические стратегии возврата криптовалюты — 8 февраля 2024 г."
         ]
       }
     ]
@@ -250,7 +250,7 @@ export const NewsletterDetailPage = () => {
   const handleDownloadPDF = () => {
     // In a real application, this would trigger a download
     // For this demo, we'll just show an alert
-    alert(`Downloading PDF for ${newsletter?.title}`);
+    alert(`Скачивание PDF: ${newsletter?.title}`);
   };
   
   // Handle subscription
@@ -276,15 +276,15 @@ export const NewsletterDetailPage = () => {
       <div className="bg-background py-16">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">Newsletter Not Found</h2>
-            <p className="mb-8">The newsletter you are looking for does not exist.</p>
-            <Button 
-              as={Link} 
-              to="/resources/newsletters" 
+            <h2 className="text-2xl font-bold mb-4">Рассылка не найдена</h2>
+            <p className="mb-8">Рассылка, которую вы ищете, не существует.</p>
+            <Button
+              as={Link}
+              to="/resources/newsletters"
               color="primary"
               startContent={<Icon icon="lucide:arrow-left" />}
             >
-              Return to Newsletters
+              Вернуться к рассылкам
             </Button>
           </div>
         </div>
@@ -297,10 +297,10 @@ export const NewsletterDetailPage = () => {
       <div className="container mx-auto px-6">
         <Breadcrumbs className="mb-8">
           <BreadcrumbItem>
-            <Link to="/">Home</Link>
+            <Link to="/">Главная</Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <Link to="/resources/newsletters">Newsletters</Link>
+            <Link to="/resources/newsletters">Рассылки</Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <span>{newsletter.title}</span>
@@ -332,7 +332,7 @@ export const NewsletterDetailPage = () => {
                       startContent={<Icon icon="lucide:download" size={16} />}
                       onPress={handleDownloadPDF}
                     >
-                      Download PDF
+                      Скачать PDF
                     </Button>
                   </div>
                   
@@ -391,15 +391,15 @@ export const NewsletterDetailPage = () => {
                     color="primary" 
                     startContent={<Icon icon="lucide:arrow-left" size={16} />}
                   >
-                    Back to Newsletters
+                    Назад к рассылкам
                   </Button>
-                  <Button 
-                    variant="flat" 
-                    color="primary" 
+                  <Button
+                    variant="flat"
+                    color="primary"
                     endContent={<Icon icon="lucide:mail" size={16} />}
                     onPress={onOpen}
                   >
-                    Subscribe to Updates
+                    Подписаться на обновления
                   </Button>
                 </div>
               </CardBody>
@@ -410,7 +410,7 @@ export const NewsletterDetailPage = () => {
             <div className="sticky top-24">
               <Card className="border border-divider bg-content1 mb-6">
                 <CardBody className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">More Newsletters</h3>
+                  <h3 className="text-xl font-semibold mb-4">Другие рассылки</h3>
                   <div className="flex flex-col gap-4">
                     {newsletters
                       .filter(n => n.id !== newsletterId)
@@ -440,7 +440,7 @@ export const NewsletterDetailPage = () => {
                       className="w-full"
                       endContent={<Icon icon="lucide:arrow-right" size={16} />}
                     >
-                      View All Newsletters
+                      Все рассылки
                     </Button>
                   </div>
                 </CardBody>
@@ -448,13 +448,13 @@ export const NewsletterDetailPage = () => {
               
               <Card className="border border-divider bg-content1">
                 <CardBody className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Subscribe</h3>
+                  <h3 className="text-xl font-semibold mb-4">Подписка</h3>
                   <p className="text-foreground-600 mb-4">
-                    Stay updated with our latest insights and legal developments in asset recovery and international law.
+                    Будьте в курсе наших последних материалов и правовых событий в области возврата активов и международного права.
                   </p>
                   <div className="flex flex-col gap-4">
                     <Input
-                      placeholder="Enter your email"
+                      placeholder="Введите ваш email"
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -470,10 +470,10 @@ export const NewsletterDetailPage = () => {
                       isLoading={isSubmitting}
                       onPress={handleSubscribe}
                     >
-                      Subscribe to Newsletter
+                      Подписаться на рассылку
                     </Button>
                     {subscribeSuccess && (
-                      <p className="text-success text-sm text-center">Thank you for subscribing!</p>
+                      <p className="text-success text-sm text-center">Спасибо за подписку!</p>
                     )}
                   </div>
                 </CardBody>
@@ -489,42 +489,42 @@ export const NewsletterDetailPage = () => {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Subscribe to Our Newsletter
+                Подпишитесь на нашу рассылку
               </ModalHeader>
               <ModalBody>
                 <div className="flex items-center gap-4 mb-4 bg-primary/5 p-4 rounded-lg">
                   <Icon icon="lucide:info" className="text-primary text-xl" />
                   <p className="text-foreground-700">
-                    Stay updated with our latest insights and legal developments in asset recovery and international law.
+                    Будьте в курсе наших последних материалов и правовых событий в области возврата активов и международного права.
                   </p>
                 </div>
-                
+
                 <Input
-                  label="Email Address"
-                  placeholder="Enter your email address"
+                  label="Адрес электронной почты"
+                  placeholder="Введите ваш адрес электронной почты"
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   variant="bordered"
                   className="mb-2"
                 />
-                
+
                 <Input
-                  label="Full Name"
-                  placeholder="Enter your full name"
+                  label="Полное имя"
+                  placeholder="Введите ваше полное имя"
                   variant="bordered"
                   className="mb-2"
                 />
-                
+
                 <Input
-                  label="Company/Organization"
-                  placeholder="Enter your company or organization"
+                  label="Компания/организация"
+                  placeholder="Введите вашу компанию или организацию"
                   variant="bordered"
                 />
               </ModalBody>
               <ModalFooter>
                 <Button color="default" variant="light" onPress={onClose}>
-                  Cancel
+                  Отмена
                 </Button>
                 <Button 
                   color="primary"
@@ -541,7 +541,7 @@ export const NewsletterDetailPage = () => {
                   }}
                   isLoading={isSubmitting}
                 >
-                  Subscribe
+                  Подписаться
                 </Button>
               </ModalFooter>
             </>

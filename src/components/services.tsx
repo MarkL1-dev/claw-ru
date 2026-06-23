@@ -6,38 +6,38 @@ import { useNavigate } from "react-router-dom";
 export const services = [
   {
     icon: "lucide:briefcase",
-    title: "Asset Recovery",
-    description: "Specialized in tracing and recovering misappropriated assets across multiple jurisdictions with strategic legal action.",
+    title: "Возврат активов",
+    description: "Специализируемся на розыске и возврате незаконно присвоенных активов в различных юрисдикциях с помощью стратегических юридических действий.",
     id: "asset-recovery"
   },
   {
     icon: "lucide:shield",
-    title: "Fraud Litigation",
-    description: "Comprehensive legal representation in complex fraud cases, from investigation to litigation and enforcement.",
+    title: "Судебные споры по мошенничеству",
+    description: "Комплексное юридическое представительство в сложных делах о мошенничестве — от расследования до судебного процесса и исполнения решений.",
     id: "fraud-litigation"
   },
   {
     icon: "lucide:landmark",
-    title: "Insolvency & Restructuring",
-    description: "Expert guidance through insolvency proceedings, liquidations, and corporate restructuring to maximize recovery.",
+    title: "Банкротство и реструктуризация",
+    description: "Экспертное сопровождение процедур банкротства, ликвидации и корпоративной реструктуризации для максимального возврата средств.",
     id: "insolvency-restructuring"
   },
   {
     icon: "lucide:globe",
-    title: "Cross-Border Enforcement",
-    description: "Enforcement of foreign judgments and arbitral awards in the Cayman Islands and international jurisdictions.",
+    title: "Трансграничное исполнение решений",
+    description: "Исполнение иностранных судебных решений и арбитражных постановлений на Каймановых островах и в международных юрисдикциях.",
     id: "cross-border-enforcement"
   },
   {
     icon: "lucide:building",
-    title: "Corporate Disputes",
-    description: "Resolution of shareholder disputes, director liability claims, and corporate governance matters.",
+    title: "Корпоративные споры",
+    description: "Разрешение споров между акционерами, исков об ответственности директоров и вопросов корпоративного управления.",
     id: "corporate-disputes"
   },
   {
     icon: "lucide:file-text",
-    title: "Regulatory Compliance",
-    description: "Advisory services on regulatory compliance and representation in regulatory investigations and proceedings.",
+    title: "Соответствие нормативным требованиям",
+    description: "Консультации по вопросам нормативного соответствия и представительство в регуляторных расследованиях и разбирательствах.",
     id: "regulatory-compliance"
   }
 ];
@@ -55,11 +55,11 @@ export const Services = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16">
           <div className="max-w-xl">
             <div className="inline-block bg-primary/10 px-4 py-2 rounded-md mb-4">
-              <span className="text-primary font-semibold">Our Expertise</span>
+              <span className="text-primary font-semibold">Наша экспертиза</span>
             </div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Our Legal Services</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Наши юридические услуги</h2>
             <p className="text-foreground-600 text-lg">
-              Comprehensive legal solutions tailored to complex financial recovery cases in the Cayman Islands and worldwide.
+              Комплексные юридические решения для сложных дел по возврату финансовых активов на Каймановых островах и по всему миру.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const Services = () => {
                   endContent={<Icon icon="lucide:arrow-right" size={16} />}
                   onPress={() => handleServiceClick(service.id)}
                 >
-                  Learn More
+                  Подробнее
                 </Button>
               </CardFooter>
             </Card>

@@ -11,9 +11,9 @@ export const NotFound = () => {
       <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mb-6">
         <Icon icon="lucide:file-question" className="text-primary text-4xl" />
       </div>
-      <h1 className="text-4xl font-bold mb-4">Page Not Found</h1>
+      <h1 className="text-4xl font-bold mb-4">Страница не найдена</h1>
       <p className="text-foreground-600 mb-8 max-w-md">
-        The page you are looking for doesn't exist or has been moved.
+        Страница, которую вы ищете, не существует или была перемещена.
       </p>
       <Button 
         color="primary" 
@@ -21,7 +21,7 @@ export const NotFound = () => {
         onPress={() => navigate("/")}
         startContent={<Icon icon="lucide:home" />}
       >
-        Return to Homepage
+        Вернуться на главную
       </Button>
     </div>
   );

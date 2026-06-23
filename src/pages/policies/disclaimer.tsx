@@ -5,45 +5,45 @@ import { Icon } from "@iconify/react";
 export const Disclaimer = () => {
   return (
     <PolicyLayout 
-      title="Legal Disclaimer" 
-      lastUpdated="January 15, 2024"
+      title="Отказ от ответственности"
+      lastUpdated="15 января 2024 г."
       policyPath="disclaimer"
     >
       <div className="bg-warning/10 p-6 rounded-lg mb-8 border-l-4 border-warning">
         <div className="flex items-start gap-4">
           <Icon icon="lucide:alert-triangle" className="text-warning text-xl mt-1 flex-shrink-0" />
           <p className="text-lg font-medium mb-0">
-            The information provided on this website is for general informational purposes only and does not constitute legal advice or create an attorney-client relationship.
+            Информация, представленная на этом веб-сайте, носит исключительно общий информационный характер, не является юридической консультацией и не создаёт отношений «адвокат — клиент».
           </p>
         </div>
       </div>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Website Disclaimer</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Отказ от ответственности в отношении веб-сайта</h2>
         <p className="mb-4 leading-relaxed">
-          The information provided by CLAW Law Firm ("we," "us," or "our") on our website (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+          Информация, предоставляемая юридической фирмой CLAW («мы», «нас» или «наш») на нашем веб-сайте («Сайт»), носит исключительно общий информационный характер. Вся информация на Сайте предоставляется добросовестно, однако мы не даём никаких заверений или гарантий любого рода, явных или подразумеваемых, относительно точности, достаточности, действительности, надёжности, доступности или полноты любой информации на Сайте.
         </p>
-        
+
         <div className="bg-danger/10 p-6 rounded-lg my-6 border-l-4 border-danger">
           <p className="font-bold text-center mb-0">
-            UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.
+            НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ МЫ НЕ НЕСЁМ ПЕРЕД ВАМИ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ УБЫТКИ ИЛИ УЩЕРБ ЛЮБОГО РОДА, ПОНЕСЁННЫЕ В РЕЗУЛЬТАТЕ ИСПОЛЬЗОВАНИЯ САЙТА ИЛИ ОПОРЫ НА ЛЮБУЮ ИНФОРМАЦИЮ, ПРЕДОСТАВЛЕННУЮ НА САЙТЕ. ИСПОЛЬЗОВАНИЕ ВАМИ САЙТА И ОПОРА НА ЛЮБУЮ ИНФОРМАЦИЮ НА САЙТЕ ОСУЩЕСТВЛЯЮТСЯ ИСКЛЮЧИТЕЛЬНО НА ВАШ СОБСТВЕННЫЙ РИСК.
           </p>
         </div>
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Professional Disclaimer</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Отказ от профессиональной ответственности</h2>
         <div className="flex items-start gap-6 my-6">
           <div className="hidden md:flex items-center justify-center bg-primary/10 p-4 rounded-full flex-shrink-0">
             <Icon icon="lucide:scale" className="text-primary text-4xl" />
           </div>
           <div>
             <p className="mb-4 leading-relaxed">
-              The Site cannot and does not contain legal advice. The legal information is provided for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals. We do not provide any kind of legal advice.
+              Сайт не может содержать и не содержит юридических консультаций. Юридическая информация предоставляется исключительно в общих информационных и образовательных целях и не заменяет профессиональную консультацию. Соответственно, прежде чем предпринимать какие-либо действия на основе такой информации, мы рекомендуем вам обратиться к соответствующим специалистам. Мы не оказываем никаких юридических консультаций.
             </p>
             <div className="bg-content2 p-4 rounded-lg border-l-4 border-primary my-4">
               <p className="font-medium mb-0">
-                THE USE OR RELIANCE OF ANY INFORMATION CONTAINED ON THE SITE IS SOLELY AT YOUR OWN RISK.
+                ИСПОЛЬЗОВАНИЕ ЛЮБОЙ ИНФОРМАЦИИ, СОДЕРЖАЩЕЙСЯ НА САЙТЕ, ИЛИ ОПОРА НА НЕЁ ОСУЩЕСТВЛЯЮТСЯ ИСКЛЮЧИТЕЛЬНО НА ВАШ СОБСТВЕННЫЙ РИСК.
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export const Disclaimer = () => {
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">No Attorney-Client Relationship</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Отсутствие отношений «адвокат — клиент»</h2>
         <div className="space-y-6">
           <div className="bg-content2 p-6 rounded-lg shadow-xs">
             <div className="flex items-start gap-4">
@@ -59,7 +59,7 @@ export const Disclaimer = () => {
                 <Icon icon="lucide:users" className="text-primary" />
               </div>
               <p className="mb-0 leading-relaxed">
-                The content on the Site is not intended to and does not constitute legal advice or create an attorney-client relationship. The information, content, and materials available on the Site are for general informational purposes only and are not intended to be relied upon for any purpose.
+                Содержимое Сайта не предназначено для того, чтобы являться юридической консультацией или создавать отношения «адвокат — клиент», и не является таковым. Информация, содержимое и материалы, доступные на Сайте, носят исключительно общий информационный характер и не предназначены для использования в качестве основания для каких-либо действий.
               </p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export const Disclaimer = () => {
                 <Icon icon="lucide:mail" className="text-primary" />
               </div>
               <p className="mb-0 leading-relaxed">
-                <strong>Important:</strong> Contacting us through the Site or sending us an email does not create an attorney-client relationship. Until we have agreed to represent you, anything you send us will not be confidential or privileged.
+                <strong>Важно:</strong> обращение к нам через Сайт или отправка нам электронного письма не создаёт отношений «адвокат — клиент». До тех пор пока мы не согласимся представлять ваши интересы, всё, что вы нам отправляете, не будет конфиденциальным или защищённым адвокатской тайной.
               </p>
             </div>
           </div>
@@ -78,30 +78,30 @@ export const Disclaimer = () => {
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">External Links Disclaimer</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Отказ от ответственности за внешние ссылки</h2>
         <div className="bg-content2 p-6 rounded-lg mb-4">
           <p className="mb-4 leading-relaxed">
-            The Site may contain (or you may be sent through the Site) links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability, or completeness by us.
+            Сайт может содержать (или вы можете быть перенаправлены через Сайт) ссылки на другие веб-сайты или контент, принадлежащий третьим лицам или исходящий от них, либо ссылки на веб-сайты и материалы в баннерах или иной рекламе. Такие внешние ссылки нами не исследуются, не отслеживаются и не проверяются на точность, достаточность, действительность, надёжность, доступность или полноту.
           </p>
           <p className="mb-0 leading-relaxed font-medium">
-            WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR THE ACCURACY OR RELIABILITY OF ANY INFORMATION OFFERED BY THIRD-PARTY WEBSITES LINKED THROUGH THE SITE OR ANY WEBSITE OR FEATURE LINKED IN ANY BANNER OR OTHER ADVERTISING.
+            МЫ НЕ ГАРАНТИРУЕМ, НЕ ОДОБРЯЕМ, НЕ РУЧАЕМСЯ И НЕ ПРИНИМАЕМ НА СЕБЯ ОТВЕТСТВЕННОСТЬ ЗА ТОЧНОСТЬ ИЛИ НАДЁЖНОСТЬ ЛЮБОЙ ИНФОРМАЦИИ, ПРЕДЛАГАЕМОЙ СТОРОННИМИ ВЕБ-САЙТАМИ, ССЫЛКИ НА КОТОРЫЕ РАЗМЕЩЕНЫ НА САЙТЕ, ЛИБО ЛЮБЫМ ВЕБ-САЙТОМ ИЛИ МАТЕРИАЛОМ, ССЫЛКА НА КОТОРЫЙ РАЗМЕЩЕНА В ЛЮБОМ БАННЕРЕ ИЛИ ИНОЙ РЕКЛАМЕ.
           </p>
         </div>
       </section>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Contact Us</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-foreground border-b border-divider pb-2">Свяжитесь с нами</h2>
         <p className="mb-4 leading-relaxed">
-          If you have any questions about this Disclaimer, please contact us at:
+          Если у вас есть вопросы по настоящему Отказу от ответственности, свяжитесь с нами:
         </p>
-        
+
         <div className="bg-content2 p-6 rounded-lg border border-divider">
-          <p className="font-semibold mb-2">CLAW Law Firm</p>
+          <p className="font-semibold mb-2">CLAW — Юридическая фирма</p>
           <p className="mb-0">
-            Elgin Avenue, George Town<br />
-            Grand Cayman KY1-9000<br />
-            Cayman Islands<br />
-            Phone: +1 (345) 555-0123<br />
+            Elgin Avenue, Джорджтаун<br />
+            Гранд-Кайман KY1-9000<br />
+            Каймановы острова<br />
+            Телефон: +1 (345) 555-0123<br />
             Email: <a href="mailto:legal@clawfirm.com" className="text-primary hover:underline">legal@clawfirm.com</a>
           </p>
         </div>

@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  scroll-padding-top: 100px; /* Add padding for anchor links to account for fixed header */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Force scroll to top when page loads */
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: auto; /* Override smooth scrolling for page navigation */
+}
+
+/* Additional styles for law firm aesthetic */
+.law-gradient {
+  background: linear-gradient(135deg, #0A2342 0%, #2C4C7B 100%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  transition-duration: 250ms;
+}
+
+/* Add these styles for better policy page readability */
+.leading-relaxed {
+  line-height: 1.7;
+}
+
+/* Improve policy page typography */
+h2 {
+  scroll-margin-top: 100px;
+}
+
+/* Add smooth transitions for policy page elements */
+.bg-content2, .bg-primary\/5, .bg-warning\/10, .bg-danger\/10 {
+  transition: all 0.2s ease-out;
+}
+
+/* Improve link styling in policy pages */
+a.text-primary {
+  transition: all 0.2s ease-out;
+}
+
+a.text-primary:hover {
+  text-decoration: underline;
+}
+
+/* Improve list spacing in policy pages */
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+/* Add styles for better mobile readability */
+@media (max-width: 640px) {
+  .prose {
+    font-size: 0.95rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+  }
+}
